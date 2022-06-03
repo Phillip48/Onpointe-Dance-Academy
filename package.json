@@ -1,7 +1,7 @@
 {
-  "name": "tech-friends",
+  "name": "Onpointe-Dance-Academy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Onpointe-Dance-Academy",
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
