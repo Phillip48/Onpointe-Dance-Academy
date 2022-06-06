@@ -1,5 +1,7 @@
 # Onpointe-Dance-Academy
-Onpointe Dance Academy Website using MERN  
+Onpointe Dance Academy Website using MERN   
+[Website link]()  
+[Figma Link](https://www.figma.com/file/SbjGl5dPLodUsyI0IEsJN8/On-pointe-dance-academy?node-id=0%3A1)  
 ## Table of contents   
 -[Description](#Description)   
 -[Images](#Images)     
