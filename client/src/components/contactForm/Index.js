@@ -1,8 +1,8 @@
 import React from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
-import '../home/'
+import '../contactForm/'
 
-const Home = () => {
+const ContactForm = () => {
 
     return(
         <>
@@ -11,4 +11,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default ContactForm;
