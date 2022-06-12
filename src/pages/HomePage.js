@@ -1,5 +1,5 @@
 import React from "react";
-import HomComp from "../components/";
+import HomComp from "../components/home/index.js";
 
 const Homepage = () => {
   return (

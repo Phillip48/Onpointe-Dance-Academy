@@ -6,7 +6,7 @@ const Nav = () => {
 
     return(
         <>
-        
+            <p>Testing</p>
         </>
     )
 }
