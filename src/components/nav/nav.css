@@ -17,7 +17,7 @@
 
 .holds-page-options{
     display: flex;
-
+    justify-content: center;
 }
 
 .navbar-a-element{
@@ -38,10 +38,28 @@
 }
 
 /* ========================================== */
-@media screen and (max-width: 450px) {
-
+@media screen and (max-width: 670px) {
+    .hold-everything-navbar{
+        margin-top: .3rem;
+        flex-direction: column;
+    }
+    .navbar-a-element{
+        font-size: 1.1em;
+    }
 }
 
 @media screen and (max-width: 450px) {
-    
+    .navbar-a-element{
+        font-size: 1em;
+    }
+    /* .holds-page-options{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .holds-page-options .div-padding-1{
+        padding: 0;
+        margin: 0;
+        margin: -.7rem 0 -.7rem 0;
+    } */
 }
