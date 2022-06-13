@@ -8,7 +8,7 @@ const Nav = () => {
 
     return (
         <>
-            <section className="hold-everything-navbar">
+            <header className="hold-everything-navbar">
                 <div className="holds-logo">
                     <a href='/'><img alt='logo' className="navbar-logo" src={DanceLogo}></img></a>
                 </div>
@@ -23,7 +23,7 @@ const Nav = () => {
 
                 
                 </div>
-            </section>
+            </header>
         </>
     )
 }
