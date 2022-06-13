@@ -1,0 +1,47 @@
+
+*{
+    box-sizing: border-box;
+}
+
+.hold-everything-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2.5rem;
+}
+
+.navbar-logo{
+    width: 100px;
+}
+
+.holds-page-options{
+    display: flex;
+
+}
+
+.navbar-a-element{
+    font-size: 1.3em;
+    transition: all .4s ease-in-out;
+    /* color: #fff; */
+}
+.navbar-a-element:hover{
+    color: blue;
+    /* font-size: 200%; */
+    margin: 0;
+    transform: scale(1.2);
+    /* padding-bottom: .5rem; */
+}
+
+.holds-page-options-mobile{
+    display: none;
+}
+
+/* ========================================== */
+@media screen and (max-width: 450px) {
+
+}
+
+@media screen and (max-width: 450px) {
+    
+}

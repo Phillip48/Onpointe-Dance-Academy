@@ -1,4 +1,29 @@
-.App {
+
+
+*{
+  box-sizing: border-box;
+}
+
+/*  Establish variables */
+/* :root{
+} */
+
+a, 
+a:hover, 
+a:focus, 
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.div-padding-verysmall{
+  padding: .3rem;
+}
+.div-padding-1{
+  padding: 1rem;
+}
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
