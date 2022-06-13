@@ -14,6 +14,8 @@ import Nav from '../src/components/nav/index.js';
 import Home from '../src/pages/HomePage';
 import Contact from '../src/pages/ContactMe';
 import Footer from '../src/components/footer/index';
+import AboutUs from '../src/components/aboutUs/index';
+import Classes from '../src/components/differentClasses/index';
 
 function App() {
   return (
@@ -33,6 +35,14 @@ function App() {
           <Route
             path="/ContactMe"
             element={<Contact />}
+          />
+          <Route
+            path="/AboutUs"
+            element={<AboutUs />}
+          />
+          <Route
+            path="/Classes"
+            element={<Classes />}
           />
         </Routes>
         {/* Renders the footer to the bottom of each page */}

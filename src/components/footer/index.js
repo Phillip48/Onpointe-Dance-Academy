@@ -11,12 +11,14 @@ const Footer = () => {
         <>
             <section className="holds-everything-footer">
                 <div className="holds-footer-img">
+                    {/* needs OPDA LOGO */}
                     <img alt="footer-logo" src={DanceLogo} className='footer-logo'></img>
                     <p className="small-sub-text">@Onpointe Dance Academy</p>
                 </div>
                 <div className="footer-social-media">
                     <p>Check us out on...</p>
                     <div className="social-dicons-row">
+                        {/* needs to link to OPDA social media */}
                         <a href="https://www.instagram.com/"><AiOutlineInstagram className="footer-social-icons"/></a>
                         <a href="https://www.youtube.com/?hl=en"><AiOutlineYoutube className="footer-social-icons"/></a>
                         <a href="https://www.facebook.com/?hl=en"><AiOutlineFacebook className="footer-social-icons"/></a>
@@ -26,7 +28,7 @@ const Footer = () => {
                     <div className="phone-footer-contact">
                         <AiOutlinePhone className="footer-contact-icons"/>
                         <div className="div-padding-verysmall"></div>
-                        <a href="tel:3333333333"><p>407-350-9371</p></a>
+                        <a href="tel:4073509371"><p>407-350-9371</p></a>
                     </div>
                     <div className="mail-footer-contact">
                         <AiOutlineMail className="footer-contact-icons"/>
