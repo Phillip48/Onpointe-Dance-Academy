@@ -10,7 +10,7 @@ const Nav = () => {
         <>
             <section className="hold-everything-navbar">
                 <div className="holds-logo">
-                    <img alt='logo' className="navbar-logo" src={DanceLogo}></img>
+                    <a href='/'><img alt='logo' className="navbar-logo" src={DanceLogo}></img></a>
                 </div>
                 <div className="holds-page-options">
                     <a href='/' className="navbar-a-element"><h4>About Us</h4></a>
