@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../contactForm/contactForm.css'
 import { AiOutlineUser, AiOutlineMail, AiOutlineMessage } from 'react-icons/ai';
@@ -43,7 +43,7 @@ const ContactForm = () => {
                     </div>
                     <div className='div-padding'></div>
                     <div className='contact-form-right'>
-                        <h3 className='sub-intro-med'>Contact me</h3>
+                        <h3 className='sub-intro-med subheader-contact-form'>Contact me</h3>
                         {/* <p className='para-text-small'>Form here...</p> */}
                         <form name='contact' className='contact-form-input' ref={form} onSubmit={sendEmail}>
                             <div className="contact-form-labels">

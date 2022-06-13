@@ -12,6 +12,7 @@ import {
 // Importing components and pages needed in this file
 import Nav from '../src/components/nav/index.js';
 import Home from '../src/pages/HomePage';
+import Contact from '../src/pages/ContactMe';
 import Footer from '../src/components/footer/index';
 
 function App() {
@@ -26,6 +27,12 @@ function App() {
           <Route
             path="/"
             element={<Home />}
+          />
+        </Routes>
+        <Routes>
+          <Route
+            path="/ContactMe"
+            element={<Contact />}
           />
         </Routes>
         {/* Renders the footer to the bottom of each page */}

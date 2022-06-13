@@ -1,0 +1,117 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.div-padding-contact{
+  padding: .5rem;
+}
+
+.holds-contact-section {
+  display: flex;
+  flex-direction: column;
+  margin: 2.5rem;
+}
+.holds-contact-section-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.contact-form-right {
+  min-width: 50%;
+}
+
+.contact-form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 85%; */
+}
+
+.contact-form-labels {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  height: 3rem;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.contact-form-labels-textarea {
+  height: 3rem;
+  border-radius: 4px;
+
+}
+.input-field-form{
+  border-radius: 4px;
+}
+
+.subheader-contact-form{
+    padding: .5rem;
+}
+
+.para-text-small-form {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  margin-top: -1rem;
+  /* color: #fff; */
+  font-weight: 600;
+}
+
+.para-text-small-map {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    /* margin-top: -1rem; */
+    /* color: #fff; */
+    font-weight: 600;
+}
+
+.contact-form-labels-submit {
+  padding: 0.4em;
+  font: inherit;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 6px;
+  /* color: #fff; */
+  cursor: pointer;
+}
+/* .contact-form-labels-submit:hover{
+  border-color: var(--hoverComp);
+  background-color: var(--hoverComp);
+} */
+
+.map-wrap{
+    width: 100%;
+}
+
+#map {
+  /* width: 100%; */
+  /* min-width: 45rem; */
+  /* max-width: 100%; */
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 3px solid black;
+  height: 300px;
+}
+
+@media screen and (max-width: 650px) {
+  .contact-form-right{
+    min-width: 60%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .holds-contact-section{
+    align-items: center;
+  }
+  .holds-contact-section-row{
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+}
