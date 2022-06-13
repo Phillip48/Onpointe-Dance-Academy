@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../contactForm/contactForm.css'
-import { AiOutlineUser, AiOutlineMail, AiOutlineMessage } from 'react-icons/ai';
+import { AiOutlineUser, AiOutlineMail, AiOutlineMessage, AiOutlinePhone } from 'react-icons/ai';
 import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
@@ -12,7 +12,7 @@ const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_ze75w0o', 'template_89b7rnl', form.current, 'WDfEiUtjNB2Tz-vID')
+        emailjs.sendForm('service_30g88yk', 'template_hocpn0h', form.current, '3-bRDlrNfQF67KWz3')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -53,16 +53,30 @@ const ContactForm = () => {
                                 <input type="text" id="name" name="name" className="input-field-form" style={{ fontSize: '18px' }} />
                             </div>
                             <div className='div-padding-contact'></div>
-                            <div className="contact-form-labels">
-                                <label htmlFor="email" className='para-text-small-form'>
-                                    <AiOutlineMail /> Email
-                                </label>
-                                <input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    className="input-field-form"
-                                    style={{ fontSize: '18px' }} />
+                            <div className="contact-form-labels-2-inputs">
+                                <div className="email-side-phone">
+                                    <label htmlFor="email" className='para-text-small-form'>
+                                        <AiOutlineMail /> Email
+                                    </label>
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        className="input-field-form input-field-form-some"
+                                        style={{ fontSize: '18px' }} />
+                                </div>
+                                <div className="div-padding-verysmall"></div>
+                                <div className="email-side-phone">
+                                    <label htmlFor="phone" className='para-text-small-form'>
+                                        <AiOutlinePhone /> Phone
+                                    </label>
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        className="input-field-form input-field-form-some"
+                                        style={{ fontSize: '18px' }} />
+                                </div>
                             </div>
                             <div className='div-padding-contact'></div>
                             <div className="contact-form-labels">

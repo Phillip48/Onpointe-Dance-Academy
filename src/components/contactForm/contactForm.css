@@ -37,13 +37,31 @@
   font-family: 'League Spartan', sans-serif;
 }
 
+.contact-form-labels-2-inputs{
+  display: flex;
+  width: 85%;
+  height: 3rem;
+  font-family: 'League Spartan', sans-serif;
+  justify-content: space-evenly;
+}
+
+.email-side-phone{
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-form-labels-textarea {
   height: 3rem;
   border-radius: 4px;
 
 }
+
 .input-field-form{
   border-radius: 4px;
+}
+
+.input-field-form-some{
+  width: 100%;
 }
 
 .subheader-contact-form{
@@ -77,11 +95,12 @@
   border-radius: 6px;
   /* color: #fff; */
   cursor: pointer;
+  transition: all .4s ease-in-out;
 }
-/* .contact-form-labels-submit:hover{
-  border-color: var(--hoverComp);
-  background-color: var(--hoverComp);
-} */
+.contact-form-labels-submit:hover{
+  background-color: black;
+  color: white;
+}
 
 .map-wrap{
     width: 100%;
@@ -97,14 +116,25 @@
   border: 3px solid black;
   height: 300px;
 }
-
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 1200px) {
   .contact-form-right{
     min-width: 60%;
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1000px) {
+  .contact-form-right{
+    min-width: 40%;
+  }
+}
+
+/* @media screen and (max-width: 650px) {
+  .contact-form-right{
+    min-width: 60%;
+  }
+} */
+
+@media screen and (max-width: 650px) {
   .holds-contact-section{
     align-items: center;
   }
