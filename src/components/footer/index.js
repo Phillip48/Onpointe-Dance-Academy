@@ -17,24 +17,22 @@ const Footer = () => {
                 <div className="footer-social-media">
                     <p>Check us out on...</p>
                     <div className="social-dicons-row">
-                        <a href="/"><AiOutlineInstagram className="footer-social-icons"/></a>
-                        <a href="/"><AiOutlineYoutube className="footer-social-icons"/></a>
-                        <a href="/"><AiOutlineFacebook className="footer-social-icons"/></a>
+                        <a href="https://www.instagram.com/"><AiOutlineInstagram className="footer-social-icons"/></a>
+                        <a href="https://www.youtube.com/?hl=en"><AiOutlineYoutube className="footer-social-icons"/></a>
+                        <a href="https://www.facebook.com/?hl=en"><AiOutlineFacebook className="footer-social-icons"/></a>
                     </div>
                 </div>
                 <div className="small-contact-info">
                     <div className="phone-footer-contact">
                         <AiOutlinePhone className="footer-contact-icons"/>
                         <div className="div-padding-verysmall"></div>
-                        <a href="tel:3333333333"><p>407-888-5687</p></a>
+                        <a href="tel:3333333333"><p>407-350-9371</p></a>
                     </div>
                     <div className="mail-footer-contact">
                         <AiOutlineMail className="footer-contact-icons"/>
                         <div className="div-padding-verysmall"></div>
-                        <a href="mailto:something@gmail.com"><p>something@gmail.com</p></a>
+                        <a href="mailto:onpointedance.a@gmail.com"><p>onpointedance.a@gmail.com</p></a>
                     </div>
-                    
-                    
                 </div>
             </section>
         </>
