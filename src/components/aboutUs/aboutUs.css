@@ -41,3 +41,19 @@
 .aboutus-staff-holds-text{
     width: 45%;
 }
+
+@media screen and (max-width: 450px) {
+    .aboutus-staff-holds-photo-div{
+        flex-direction: column;
+    }
+    .aboutus-staff-photo{
+        width: 100%;
+    }
+    .aboutus-staff-holds-photo{
+        width: 75%;
+    }
+    .aboutus-staff-holds-text{
+        width: 75%;
+    }
+}
+  
