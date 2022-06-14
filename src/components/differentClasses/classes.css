@@ -2,3 +2,36 @@
 *{
     box-sizing: border-box;
 }
+
+.classes-holds-everything{
+    display: flex;
+    flex-direction: column;
+}
+
+.classes-holds-class-info{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+/* .classes-text-info{
+
+}
+
+.classes-text-schedule{
+
+} */
+
+.class-holds-class-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+   
+}
+
+.class-image{
+ width: 80%;
+ height: 25vh;
+}

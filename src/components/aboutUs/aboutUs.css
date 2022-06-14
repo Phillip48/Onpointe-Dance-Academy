@@ -2,3 +2,42 @@
 *{
     box-sizing: border-box;
 }
+
+.aboutus-holds-everything{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem;
+}
+
+.header-for-aboutus-top{
+    width: 100%;
+    height: 40vh;
+}
+
+.aboutus-subheader-text{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
+
+
+.aboutus-staff-holds-photo-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutus-staff-holds-photo{
+    width: 45%;
+}
+
+.aboutus-staff-photo{
+    width: 90%;
+}
+
+.aboutus-staff-holds-text{
+    width: 45%;
+}

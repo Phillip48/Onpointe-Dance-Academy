@@ -8,23 +8,28 @@ const Classes = () => {
     return (
         <>
             {/* Different classes offered */}
-            <section className="">
+            <section className="classes-holds-everything">
                  {/* class info */}
-                <section className="">
+                <section className="classes-holds-class-info">
 
-                    <div className="">  
-
+                    <div className="classes-text-info">  
+                        <p>Holds info and what not</p>
                     </div>
 
 
                     {/* schedule */}
-                    <div className="">
-                        
+                    <div className="classes-text-schedule">
+                        <p>Monday- blah</p>
+                        <p>Monday- blah</p>
+                        <p>Monday- blah</p>
+                        <p>Monday- blah</p>
                     </div>
                 </section>
 
-                <div className="">
-                    <img alt='header-img' src={TempPic} className=''></img>
+                {/* possibly make a slider or 
+                add more photos like a gallery  */}
+                <div className="class-holds-class-img">
+                    <img alt='header-img' src={TempPic} className='class-image'></img>
                 </div>
             </section>
         </>

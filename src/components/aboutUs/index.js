@@ -10,23 +10,24 @@ const AboutUsComp = () => {
             <section className="aboutus-holds-everything">
                 {/* Banner at the top for About us */}
                 <div className="aboutus-top-banner">
-                    <img alt='header-for-aboutus-top' src={TempPic} className=''></img>
+                    <img alt='aboutus header' src={TempPic} className='header-for-aboutus-top'></img>
                 </div>
 
                 {/* subheader and text about the owner staff and company */}
                 <div className="aboutus-subheader-text">
-                    <p></p>
+                    <h1>Testing header</h1>
+                    <p>TESTING THIS</p>
                 </div>
 
                 {/* Staff photo and text */}
                 {/* text can be under photo or next to the photo  */}
-                <section className="aboutus-staffphoto-stafftext">
-                    <div className="">
-                        <img alt='staff' src={TempPic} className=''></img>
+                <section className="aboutus-staff-holds-photo-div">
+                    <div className="aboutus-staff-holds-photo">
+                        <img alt='staff' src={TempPic} className='aboutus-staff-photo'></img>
                     </div>
 
-                    <div className="">
-                        <p></p>
+                    <div className="aboutus-staff-holds-text">
+                        <p>This is for text about the staff and what not</p>
                     </div>
                 </section>
             </section>
