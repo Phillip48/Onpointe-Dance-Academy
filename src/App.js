@@ -13,6 +13,7 @@ import {
 import Nav from '../src/components/nav/index.js';
 import Home from '../src/pages/HomePage';
 import Contact from '../src/pages/ContactMe';
+import RegisterPage from '../src/pages/Register';
 import Footer from '../src/components/footer/index';
 import AboutUs from '../src/components/aboutUs/index';
 import Classes from '../src/components/differentClasses/index';
@@ -43,6 +44,10 @@ function App() {
           <Route
             path="/Classes"
             element={<Classes />}
+          />
+          <Route
+            path="/Regsiter"
+            element={<RegisterPage />}
           />
         </Routes>
         {/* Renders the footer to the bottom of each page */}

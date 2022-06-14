@@ -28,6 +28,12 @@ const Classes = () => {
 
                 {/* possibly make a slider or 
                 add more photos like a gallery  */}
+                <div className="holds-register-form-button-link">
+                    <h3>Interested in becoming a dance student?</h3>
+                    <a href='/Register'><button  className="contact-form-labels-submit">
+                        Register Now!
+                    </button></a>
+                </div>
                 <div className="class-holds-class-img">
                     <img alt='header-img' src={TempPic} className='class-image'></img>
                 </div>
