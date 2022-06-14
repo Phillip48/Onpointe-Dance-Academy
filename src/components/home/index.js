@@ -16,7 +16,7 @@ const Home = () => {
                 {/* 2 part of figma home text and image right left */}
                 <section className="home-text-and-image">
                     <div className="home-left-image">
-                        <img alt='banner' className="" src={TempPic}></img>
+                        <img alt='banner' className="home-side-image" src={TempPic}></img>
                     </div>
 
                     {/* Text right left img */}
@@ -38,17 +38,17 @@ const Home = () => {
                 {/* Class options (Text with img) */}
                 {/* Need to add text to images */}
                 <div className="home-different-classes">
-                    <img alt='banner' className="home-classes-options" src={TempPic}></img>
+                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
                     <div className="div-padding-verysmall"></div>
-                    <img alt='banner' className="home-classes-options" src={TempPic}></img>
+                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
                     <div className="div-padding-verysmall"></div>
-                    <img alt='banner' className="home-classes-options" src={TempPic}></img>
+                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
                     
-                    <img alt='banner' className="home-classes-options" src={TempPic}></img>
+                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
                     <div className="div-padding-verysmall"></div>
-                    <img alt='banner' className="home-classes-options" src={TempPic}></img>
+                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
                     <div className="div-padding-verysmall"></div>
-                    <img alt='banner' className="home-classes-options" src={TempPic}></img>
+                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
                 </div>
 
                 {/* Header for contact me. Contact me in rendered in the homepage */}
