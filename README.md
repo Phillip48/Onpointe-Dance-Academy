@@ -11,12 +11,6 @@ Onpointe Dance Academy Website using MERN
 ## Description  
 Type here...
 
-## The Project
-
-Create a Full Stack Web Application with the following features:
-
-- [x] Use a Node and Express web server
-
 ## Usage
 
 **User Story**
