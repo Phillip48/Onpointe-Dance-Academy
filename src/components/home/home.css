@@ -7,9 +7,26 @@
     margin: 2.5rem;
 }
 
+.home-banner-top-page{
+    display: flex;
+    justify-content: center;
+}
+
 .home-top-banner{
-    width: 100%;
-    height: 40vh;
+    width: 95%;
+    height: auto;
+}
+
+.home-mission-statement{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.home-mission-statement-text{
+    text-align: center;
+    width: 60%;
 }
 /* =============================== */
 .home-text-and-image{
@@ -26,7 +43,7 @@
 }
 
 .home-side-image{
-    width: 100%;
+    width: 80%;
 }
 
 .home-right-text{
