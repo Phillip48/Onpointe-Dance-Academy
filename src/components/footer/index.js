@@ -3,7 +3,7 @@ import { AiOutlineInstagram, AiOutlineYoutube, AiOutlinePhone, AiOutlineMail, Ai
 
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../footer/footer.css'
-import DanceLogo from '../../assets/P-logos_black.png';
+import DanceLogo from '../../assets/11OPDALOGO.JPG';
 
 const Footer = () => {
 
@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="holds-footer-img">
                     {/* needs OPDA LOGO */}
                     <img alt="footer-logo" src={DanceLogo} className='footer-logo'></img>
-                    <p className="small-sub-text">@Onpointe Dance Academy</p>
+                    {/* <p className="small-sub-text">@Onpointe Dance Academy</p> */}
                 </div>
                 <div className="footer-social-media">
                     <p>Check us out on...</p>

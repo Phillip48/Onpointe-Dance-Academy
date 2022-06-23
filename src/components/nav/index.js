@@ -1,7 +1,7 @@
 import React from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../nav/nav.css'
-import DanceLogo from '../../assets/P-logos_black.png';
+import DanceLogo from '../../assets/11OPDALOGO.JPG';
 
 const Nav = () => {
     

@@ -8,11 +8,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 1.5rem;
+    margin: 2rem;
 }
 
 .navbar-logo{
-    width: 100px;
+    width: 120px;
 }
 
 .holds-page-options{
