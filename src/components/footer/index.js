@@ -19,9 +19,9 @@ const Footer = () => {
                     <p>Check us out on...</p>
                     <div className="social-dicons-row">
                         {/* needs to link to OPDA social media */}
-                        <a href="https://www.instagram.com/"><AiOutlineInstagram className="footer-social-icons"/></a>
-                        <a href="https://www.youtube.com/?hl=en"><AiOutlineYoutube className="footer-social-icons"/></a>
-                        <a href="https://www.facebook.com/?hl=en"><AiOutlineFacebook className="footer-social-icons"/></a>
+                        <a href="https://www.instagram.com/onpointe_dance/"><AiOutlineInstagram className="footer-social-icons"/></a>
+                        <a href="https://www.youtube.com/channel/UCjMTMftU-ecm0JV3EWRSYgw"><AiOutlineYoutube className="footer-social-icons"/></a>
+                        <a href="https://www.facebook.com/opdarules/"><AiOutlineFacebook className="footer-social-icons"/></a>
                     </div>
                 </div>
                 <div className="small-contact-info">

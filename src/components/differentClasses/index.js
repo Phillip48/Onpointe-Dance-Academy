@@ -4,6 +4,9 @@ import '../differentClasses/classes.css'
 import TempPic from '../../assets/placeholder img.webp';
 import inclassphoto from '../../assets/OPDAimg/1inclassstretchesresize.JPG';
 import toddlergallerypic from '../../assets/OPDAimg/toddlerteamdresspic.JPG';
+import hiphopphoto from '../../assets/OPDAimg/1adultsglowinthedark.JPG';
+import balletphoto from '../../assets/OPDAimg/kidsballet.JPG';
+import performancephoto from '../../assets/OPDAimg/1homeclassusekidsmaybetapdance.JPG';
 
 const Classes = () => {
 
@@ -42,12 +45,16 @@ const Classes = () => {
 
                     {/* schedule */}
                     <div className="classes-text-schedule">
+                        <img alt='ballet' className="class-image" src={performancephoto}></img>
+                        <img alt='ballet' className="class-image" src={balletphoto}></img>
+                        <img alt='ballet' className="class-image" src={hiphopphoto}></img>
+                        <img alt='ballet' className="class-image" src={toddlergallerypic}></img>
+                        {/* <p>Monday- blah</p>
                         <p>Monday- blah</p>
                         <p>Monday- blah</p>
                         <p>Monday- blah</p>
                         <p>Monday- blah</p>
-                        <p>Monday- blah</p>
-                        <p>Monday- blah</p>
+                        <p>Monday- blah</p> */}
                     </div>
                 </section>
 
@@ -63,7 +70,7 @@ const Classes = () => {
                         <img alt='gallery' src={toddlergallerypic} className='class-image'></img>
                         <img alt='gallery' src={inclassphoto} className='class-image'></img>
                     </div> */}
-                    
+
                 </div>
             </section>
         </>

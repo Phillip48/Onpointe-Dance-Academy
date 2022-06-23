@@ -2,3 +2,9 @@
 *{
     box-sizing: border-box;
 }
+
+.holds-registeration-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

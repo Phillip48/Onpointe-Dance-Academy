@@ -46,7 +46,7 @@ function App() {
             element={<Classes />}
           />
           <Route
-            path="/Regsiter"
+            path="/Register"
             element={<RegisterPage />}
           />
         </Routes>

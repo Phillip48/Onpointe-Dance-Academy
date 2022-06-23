@@ -24,6 +24,7 @@ const RegisterForm = () => {
     return (
         <>
             <section className="holds-registeration-form">
+                <h1>Want to join our dance team? Regsiter now!</h1>
                 <form  name='contact' className='register-form' ref={form} onSubmit={sendEmail}>
 
                 </form>

@@ -16,11 +16,11 @@
 
 /* .classes-text-info{
 
-}
+} */
 
 .classes-text-schedule{
-
-} */
+    width: 20%;
+}
 
 .class-holds-class-img {
   display: flex;
@@ -30,7 +30,8 @@
 }
 
 .class-image {
-  width: 30%;
+    margin-top: 2.5rem;
+  width: 100%;
   height: auto;
 }
 .classes-text-info {
