@@ -30,7 +30,7 @@ const Home = () => {
                             exciting world of dance and to teaching the love of dance to children of all ages. Serving dancers from Kissimmee, Orlando and Celebration.
                         </p>
                     </div>
-                    <div className="home-mission-statement-tex2">
+                    <div className="home-mission-statement-text">
                         <p>We offer classes for dancers 3 years of age and up in ballet, jazz, tap, acrobatics, hip hop, modern, lyrical and jump and turn.
                         </p>
                     </div>
@@ -65,35 +65,47 @@ const Home = () => {
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
                         {/* <p>Tumbling</p> */}
                     </div>
-                    <div className="div-padding-1"></div>
+                    {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-2">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
                         {/* <p>HipHop</p> */}
                     </div>
-                    <div className="div-padding-1"></div>
+                    {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-3">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
                         {/* <p>Ballet</p> */}
                     </div>
-
+                        
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-4">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
                         {/* <p>Some</p> */}
                     </div>
-                    <div className="div-padding-1"></div>
+                    {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-5">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
                         {/* <p>Some</p> */}
                     </div>
-                    <div className="div-padding-1"></div>
+                    {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-6">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
                         {/* <p>Some</p> */}
                     </div>
+                </div>
+                <div className="holds-register-form-button-link margin-top">
+                    <h2 style={{ textAlign: 'center'}}>Interested in becoming a dance student?</h2>
+                    <a href='/Register'><button className="contact-form-labels-submit">
+                        Register Now!
+                    </button></a>
+
+                    {/* <div className="class-holds-class-img">
+                        <img alt='gallery' src={toddlergallerypic} className='class-image'></img>
+                        <img alt='gallery' src={inclassphoto} className='class-image'></img>
+                    </div> */}
+
                 </div>
 
                 {/* Header for contact me. Contact me in rendered in the homepage */}

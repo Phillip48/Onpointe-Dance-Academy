@@ -23,6 +23,10 @@ a:active {
   padding: 1rem;
 }
 
+.input-size{
+  font-size: 18px;
+}
+
 .margin-top{
   margin-top: 2rem;
 }

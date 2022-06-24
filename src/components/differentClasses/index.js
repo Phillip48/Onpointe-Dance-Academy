@@ -46,8 +46,11 @@ const Classes = () => {
                     {/* schedule */}
                     <div className="classes-text-schedule">
                         <img alt='ballet' className="class-image" src={performancephoto}></img>
+                        <div className="div-padding-verysmall"></div>
                         <img alt='ballet' className="class-image" src={balletphoto}></img>
+                        <div className="div-padding-verysmall"></div>
                         <img alt='ballet' className="class-image" src={hiphopphoto}></img>
+                        <div className="div-padding-verysmall"></div>
                         <img alt='ballet' className="class-image" src={toddlergallerypic}></img>
                         {/* <p>Monday- blah</p>
                         <p>Monday- blah</p>
