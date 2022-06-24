@@ -12,7 +12,7 @@ const RegisterForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         // Make a new template for the registeration form
-        emailjs.sendForm('service_30g88yk', 'template_hocpn0h', form.current, '3-bRDlrNfQF67KWz3')
+        emailjs.sendForm('service_30g88yk', 'template_obyfpth', form.current, '3-bRDlrNfQF67KWz3')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -32,21 +32,21 @@ const RegisterForm = () => {
                             <label htmlFor="studentsName" className='para-text-small-form'>
                                 Students Name
                             </label>
-                            <input type="text" id="studentsName" name="studentsName" className="register-input-field-form input-size" />
+                            <input type="text" id="studentsName" name="studentsName" className="register-input-field-form input-size" required/>
                         </div>
                         <div className="register-form-labels-2-inputs">
                             <div className="resgiter-side">
                                 <label htmlFor="studentsAge" className='para-text-small-form'>
                                     Students Age
                                 </label>
-                                <input type="number" id="studentsAge" name="studentsAge" className="register-input-field-form input-size " />
+                                <input type="number" id="studentsAge" name="studentsAge" className="register-input-field-form input-size " required/>
                             </div>
                             <div className="div-padding-verysmall"></div>
                             <div className="resgiter-side">
                                 <label htmlFor="studentsGrade" className='para-text-small-form'>
                                     Students Grade
                                 </label>
-                                <input type="text" id="studentsGrade" name="studentsGrade" className="register-input-field-form input-size" />
+                                <input type="text" id="studentsGrade" name="studentsGrade" className="register-input-field-form input-size"required />
                             </div>
                         </div>
 
@@ -54,7 +54,7 @@ const RegisterForm = () => {
                             <label htmlFor="studentsAllergies" className='para-text-small-form'>
                                 Food Allergies
                             </label>
-                            <textarea className="register-form-labels-textarea register-input-field-form input-size" name='message' />
+                            <textarea className="register-form-labels-textarea register-input-field-form input-size" name='studentsAllergies' required/>
                         </div>
 
                         <div className="register-form-labels">
@@ -75,7 +75,7 @@ const RegisterForm = () => {
                             <label htmlFor="danceClass" className='para-text-small-form'>
                                 Dance Classes
                             </label>
-                            <input type="text" id="danceClass" name="danceClass" className="register-input-field-form input-size" />
+                            <input type="text" id="danceClass" name="danceClass" className="register-input-field-form input-size" required/>
                         </div>
 
                         <div className="register-form-labels-2-inputs">
@@ -83,30 +83,30 @@ const RegisterForm = () => {
                                 <label htmlFor="motherName" className='para-text-small-form'>
                                     Mother Name
                                 </label>
-                                <input type="text" id="motherName" name="motherName" className="register-input-field-form input-size" />
+                                <input type="text" id="motherName" name="motherName" className="register-input-field-form input-size" required/>
                             </div>
                             <div className="div-padding-verysmall"></div>
                             <div className="resgiter-side">
                                 <label htmlFor="fatherName" className='para-text-small-form'>
                                     Father Name
                                 </label>
-                                <input type="text" id="fatherName" name="fatherName" className="register-input-field-form input-size" />
+                                <input type="text" id="fatherName" name="fatherName" className="register-input-field-form input-size" required/>
                             </div>
                         </div>
 
                         <div className="register-form-labels-2-inputs">
                             <div className="resgiter-side">
-                                <label htmlFor="motherName" className='para-text-small-form'>
+                                <label htmlFor="motherNumber" className='para-text-small-form'>
                                     Mother Phone Number
                                 </label>
-                                <input type="tel" id="motherName" name="motherName" className="register-input-field-form input-size" />
+                                <input type="tel" id="motherNumber" name="motherNumber" className="register-input-field-form input-size" required/>
                             </div>
                             <div className="div-padding-verysmall"></div>
                             <div className="resgiter-side">
-                                <label htmlFor="fatherName" className='para-text-small-form'>
+                                <label htmlFor="fatherNumber" className='para-text-small-form'>
                                     Father Phone Number
                                 </label>
-                                <input type="tel" id="fatherName" name="fatherName" className="register-input-field-form input-size" />
+                                <input type="tel" id="fatherNumber" name="fatherNumber" className="register-input-field-form input-size" required />
                             </div>
                         </div>
 
@@ -114,7 +114,7 @@ const RegisterForm = () => {
                             <label htmlFor="homeAddress" className='para-text-small-form'>
                                 Home address
                             </label>
-                            <input type="text" id="homeAddress" name="homeAddress" className="register-input-field-form input-size" />
+                            <input type="text" id="homeAddress" name="homeAddress" className="register-input-field-form input-size" required/>
                         </div>
                         <div className="register-form-labels payment-section">
                             <p className="input-size" style={{ fontWeight: 'bold' }}>Form of Payment</p>
