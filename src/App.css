@@ -23,6 +23,10 @@ a:active {
   padding: 1rem;
 }
 
+.margin-top{
+  margin-top: 2rem;
+}
+
 /* .App {
   text-align: center;
 }

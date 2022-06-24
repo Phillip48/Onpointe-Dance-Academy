@@ -17,14 +17,17 @@ const Home = () => {
             <main className="main-holds-home-page">
                 {/* Header under Navbar */}
                 <div className="home-banner-top-page">
-                    <img alt='banner' className="home-top-banner" src={HomepageBanner}></img>
+                    <h1 className="home-banner-text">Onpointe Dance Academy</h1>
+                    <p className="home-banner-subtext">Dedicated to teaching the love of dance to children of all ages</p>
+                    {/* <img alt='banner' className="home-top-banner" src={HomepageBanner}></img> */}
                 </div>
 
                 <div className="home-mission-statement">
                     <div className="home-mission-statement-text">
+                        <h2 className="home-mission-statement-header">Years Of Love And Experience For The Art We Call Dance</h2>
                         <p>At OPDA we strive to provide the highest level of dance instruction through our
-                            professional and highly experienced faculty. We are dedicated to opening doors to the
-                            exciting world of dance. Serving dancers from Kissimmee, Orlando and Celebration.
+                            professional and highly experienced staff. We are dedicated to opening doors to the
+                            exciting world of dance and to teaching the love of dance to children of all ages. Serving dancers from Kissimmee, Orlando and Celebration.
                         </p>
                     </div>
                     <div className="home-mission-statement-tex2">
@@ -34,44 +37,68 @@ const Home = () => {
                 </div>
 
                 {/* 2 part of figma home text and image right left */}
-                <section className="home-text-and-image">
+                {/* <section className="home-text-and-image">
                     <div className="home-left-image">
                         <img alt='banner' className="home-side-image" src={Homesmalldancepic}></img>
                     </div>
                     <div className="home-right-text">
-                        <p>Some sample text here. Some sample text here. Some sample text here. Some sample text here.
-                            Some sample text here. Some sample text here. Some sample text here. Some sample text here. </p>
+                        <p>At OPDA we strive to provide the highest level of dance instruction through our
+                            professional and highly experienced staff. We are dedicated to opening doors to the
+                            exciting world of dance and to teaching the love of dance to children of all ages. Serving dancers from Kissimmee, Orlando and Celebration.
+                        </p>
                     </div>
-                </section>
+                </section> */}
 
                 {/* small height full width pic */}
-                <div className="home-midpage-banner">
-                    <img alt='banner' className="home-midpage-banner-img" src={TempPic}></img>
-                </div>
+                {/* <div className="home-midpage-banner">
+                     <img alt='banner' className="home-midpage-banner-img" src={TempPic}></img> 
+                </div> */}
 
                 {/* make take out just an idea */}
                 <div className="home-header-for-classes">
-                    <h1>Classes</h1>
+                    <h1 className="home-class-header">Classes</h1>
                 </div>
                 {/* Class options (Text with img) */}
                 {/* Need to add text to images */}
                 <div className="home-different-classes">
-                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
-                    <div className="div-padding-verysmall"></div>
-                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
-                    <div className="div-padding-verysmall"></div>
-                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-1">
+                        {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
+                        {/* <p>Tumbling</p> */}
+                    </div>
+                    <div className="div-padding-1"></div>
 
-                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
-                    <div className="div-padding-verysmall"></div>
-                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
-                    <div className="div-padding-verysmall"></div>
-                    <div className="holdsdifferent-class-options-home-div"><img alt='banner' className="home-classes-options" src={TempPic}></img></div>
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-2">
+                        {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
+                        {/* <p>HipHop</p> */}
+                    </div>
+                    <div className="div-padding-1"></div>
+
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-3">
+                        {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
+                        {/* <p>Ballet</p> */}
+                    </div>
+
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-4">
+                        {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
+                        {/* <p>Some</p> */}
+                    </div>
+                    <div className="div-padding-1"></div>
+
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-5">
+                        {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
+                        {/* <p>Some</p> */}
+                    </div>
+                    <div className="div-padding-1"></div>
+
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-6">
+                        {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
+                        {/* <p>Some</p> */}
+                    </div>
                 </div>
 
                 {/* Header for contact me. Contact me in rendered in the homepage */}
                 <div className="home-contact-header">
-                    <h1>Contact Me</h1>
+                    <h1 className="home-contactme-header">Contact Me</h1>
                 </div>
 
             </main>
