@@ -28,12 +28,14 @@
 .home-banner-text{
     color: white;
     border-bottom: 3px solid white;
+    text-align: center;
     font-size: 3em;
 }
 
 .home-banner-subtext{
     margin-top: -1rem;
     color: white;
+    text-align: center;
     font-size: 1.2em;
 }
 
@@ -249,6 +251,14 @@
     }
     .home-left-image{
         width: 85%;
+    }
+    .holdsdifferent-class-options-home-div-1,
+    .holdsdifferent-class-options-home-div-2,
+    .holdsdifferent-class-options-home-div-3,
+    .holdsdifferent-class-options-home-div-4,
+    .holdsdifferent-class-options-home-div-5,
+    .holdsdifferent-class-options-home-div-6{
+        height: 20vh;
     }
 }
 
