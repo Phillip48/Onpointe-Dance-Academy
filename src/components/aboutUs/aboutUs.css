@@ -53,8 +53,12 @@
 .aboutus-staff-holds-text{
     width: 45%;
 }
+@media screen and (max-width: 900px) {
+    .aboutus-staff-holds-text{width: 100%;}
+    .aboutus-staff-photo{width: 90%;}
+}
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 650px) {
     .aboutus-staff-holds-photo-div{
         flex-direction: column;
     }
