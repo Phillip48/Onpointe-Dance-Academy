@@ -1,14 +1,14 @@
 import React from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../home/home.css'
-import TempPic from '../../assets/placeholder img.webp';
-import HomepageBanner from '../../assets/OPDAimg/1OPDAperformanceingameresize.JPG';
-import Homepagesmallerbanner from '../../assets/OPDAimg/1OPDAperformanceingameresize.JPG';
-import Homesmalldancepic from '../../assets/OPDAimg/1adultperformancejumping.JPG';
-import Homeclassballet from '../../assets/OPDAimg/1homeclassusekidsmaybetapdance.JPG';
-import Homeclasshiphop from '../../assets/OPDAimg/1adultperformancejumping.JPG';
-// import Homeclasstumbling from '../../assets/OPDAimg/1adultperformancejumping.JPG';
-import Homeclasslittlestars from '../../assets/OPDAimg/toddlersperformance.JPG';
+// import TempPic from '../../assets/placeholder img.webp';
+// import HomepageBanner from '../../assets/OPDAimg/1OPDAperformanceingameresize.JPG';
+// import Homepagesmallerbanner from '../../assets/OPDAimg/1OPDAperformanceingameresize.JPG';
+// import Homesmalldancepic from '../../assets/OPDAimg/1adultperformancejumping.JPG';
+// import Homeclassballet from '../../assets/OPDAimg/1homeclassusekidsmaybetapdance.JPG';
+// import Homeclasshiphop from '../../assets/OPDAimg/1adultperformancejumping.JPG';
+// // import Homeclasstumbling from '../../assets/OPDAimg/1adultperformancejumping.JPG';
+// import Homeclasslittlestars from '../../assets/OPDAimg/toddlersperformance.JPG';
 
 const Home = () => {
 

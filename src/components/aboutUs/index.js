@@ -1,7 +1,7 @@
 import React from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../aboutUs/aboutUs.css'
-import TempPic from '../../assets/placeholder img.webp';
+// import TempPic from '../../assets/placeholder img.webp';
 import profilebrianna from '../../assets/OPDAimg/11OPDABrianna.JPG';
 import profilecandice from '../../assets/OPDAimg/1candicedance.jpg';
 

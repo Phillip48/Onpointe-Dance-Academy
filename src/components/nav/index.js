@@ -20,10 +20,6 @@ const Nav = () => {
                     <div className="div-padding-1"></div>
                     <a href='/ContactMe' className="navbar-a-element"><h4>Contact Me</h4></a>
                 </div>
-                <div className="holds-page-options-mobile">
-
-                
-                </div>
             </header>
         </>
     )

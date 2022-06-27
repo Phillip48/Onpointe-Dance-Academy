@@ -1,8 +1,8 @@
 import React from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../differentClasses/classes.css'
-import TempPic from '../../assets/placeholder img.webp';
-import inclassphoto from '../../assets/OPDAimg/1inclassstretchesresize.JPG';
+// import TempPic from '../../assets/placeholder img.webp';
+// import inclassphoto from '../../assets/OPDAimg/1inclassstretchesresize.JPG';
 import toddlergallerypic from '../../assets/OPDAimg/toddlerteamdresspic.JPG';
 import hiphopphoto from '../../assets/OPDAimg/1adultsglowinthedark.JPG';
 import balletphoto from '../../assets/OPDAimg/kidsballet.JPG';
