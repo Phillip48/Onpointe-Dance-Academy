@@ -63,36 +63,36 @@ const Home = () => {
                 <div className="home-different-classes">
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-1">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        {/* <p>Tumbling</p> */}
+                        <p className="home-banner-text">Little Stars</p>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-2">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        {/* <p>HipHop</p> */}
+                        <p className="home-banner-text">Ballet</p>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-3">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        {/* <p>Ballet</p> */}
+                        <p className="home-banner-text">Tumbling</p>
                     </div>
                         
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-4">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        {/* <p>Some</p> */}
+                        <p className="home-banner-text">Hip Hop</p>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-5">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        {/* <p>Some</p> */}
+                        <p className="home-banner-text">Tap Dance</p>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-6">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        {/* <p>Some</p> */}
+                        <p className="home-banner-text">Other</p>
                     </div>
                 </div>
                 <div className="holds-register-form-button-link margin-top">

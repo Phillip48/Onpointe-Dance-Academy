@@ -118,21 +118,21 @@
     transition: all 0.2s ease-in-out;
 }
 .holdsdifferent-class-options-home-div:hover{
-    transform: scale(1.2);
+    transform: scale(1.15);
     cursor: pointer;
     padding: 1.4rem;
 }
 
 .holdsdifferent-class-options-home-div-1{
     border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/1adultperformancepic3.JPG);
+    background-image: url(../../assets/OPDAimg/toddlersperformance.JPG);
     background-position: center;
     background-size: cover;
     height: 25vh;
 }
 .holdsdifferent-class-options-home-div-2{
     border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/1adultperformancejumping.JPG);
+    background-image: url(../../assets/OPDAimg/kidsballet.JPG);
     background-position: center;
     background-size: cover;
     height: 25vh;
@@ -140,8 +140,8 @@
 .holdsdifferent-class-options-home-div-3{
     /* margin-top: 2.5rem; */
     border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/1adultshandraisedphoto.JPG);
-    background-position: top;
+    background-image: url(../../assets/OPDAimg/adultperformancepic4.jpg);
+    background-position: left;
     background-size: cover;
     height: 25vh;
     color: white;

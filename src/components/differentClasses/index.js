@@ -6,7 +6,7 @@ import inclassphoto from '../../assets/OPDAimg/1inclassstretchesresize.JPG';
 import toddlergallerypic from '../../assets/OPDAimg/toddlerteamdresspic.JPG';
 import hiphopphoto from '../../assets/OPDAimg/1adultsglowinthedark.JPG';
 import balletphoto from '../../assets/OPDAimg/kidsballet.JPG';
-import performancephoto from '../../assets/OPDAimg/1homeclassusekidsmaybetapdance.JPG';
+import performancephoto from '../../assets/OPDAimg/1adultperformancejumping.JPG';
 
 const Classes = () => {
 
