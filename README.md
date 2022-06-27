@@ -9,13 +9,13 @@ Onpointe Dance Academy Website using MERN
 -[Contributors](#Contributors)  
 
 ## Description  
-Type here...
+Welcome to Onpointe Dance Academy! This is a website for a client that uses React as a front end framework.
 
 ## Usage
 
 **User Story**
 
-As the user I...  want to be able to see different information about other countries. I also want to be able to write reviews about the countries and see what other people have also said. I should be able to follow other users and save countries to my favorites list.
+As the user I... want a webiste that shows the different dance classes i offer. The wbsite should have a contact form and a form that allows a new student to register.
   
 ## Images  
 ![Img 1]()  
