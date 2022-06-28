@@ -132,8 +132,8 @@
 }
 .holdsdifferent-class-options-home-div-2{
     border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/kidsballet.JPG);
-    background-position: center;
+    background-image: url(../../assets/OPDANewimages/jazzphoto.PNG);
+    background-position: 20% 55%;
     background-size: cover;
     height: 25vh;
 }
@@ -157,15 +157,14 @@
 .holdsdifferent-class-options-home-div-5{
     margin-top: 2.5rem;
     border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/1homeclassusekidsmaybetapdance.JPG);
-    background-position: bottom;
+    background-image: url(../../assets/OPDANewimages/tapdancephoto.jpg);
     background-size: cover;
     height: 25vh;
 }
 .holdsdifferent-class-options-home-div-6{
     margin-top: 2.5rem;
     border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/adultperformancepic5.JPG);
+    background-image: url(../../assets/OPDANewimages/latin.jpg);
     background-position: center;
     background-size: cover;
     height: 25vh;

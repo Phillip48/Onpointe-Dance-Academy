@@ -61,38 +61,40 @@ const Home = () => {
                 {/* Class options (Text with img) */}
                 {/* Need to add text to images */}
                 <div className="home-different-classes">
+
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-1">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <p className="home-banner-text">Little Stars</p>
+                        <a href='/Classes'><p className="home-banner-text">Little Stars</p></a>
                     </div>
+
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-2">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <p className="home-banner-text">Ballet</p>
+                        <a href='/Classes'><p className="home-banner-text">Ballet</p></a>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-3">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <p className="home-banner-text">Tumbling</p>
+                        <a href='/Classes'><p className="home-banner-text">Tumbling</p></a>
                     </div>
                         
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-4">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <p className="home-banner-text">Hip Hop</p>
+                        <a href='/Classes'><p className="home-banner-text">Hip Hop</p></a>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
-                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-5">
+                   <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-5">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <p className="home-banner-text">Tap Dance</p>
+                         <a href='/Classes'><p className="home-banner-text">Tap Dance</p></a>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-6">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <p className="home-banner-text">Other</p>
+                        <a href='/Classes'><p className="home-banner-text">Latin</p></a>
                     </div>
                 </div>
                 <div className="holds-register-form-button-link margin-top">
