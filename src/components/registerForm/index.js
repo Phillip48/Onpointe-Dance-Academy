@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import '../registerForm/registerForm.css'
 // import TempPic from '../../assets/placeholder img.webp';
 import emailjs from '@emailjs/browser';
+import {AiOutlinePhone, AiOutlineMail} from 'react-icons/ai';
 
 const RegisterForm = () => {
     const form = useRef();
@@ -260,8 +261,8 @@ const RegisterForm = () => {
                         </tr>
                     </table>
                     <p>For any question please contact the director <b>Brianna Roman</b></p>
-                    <a href="tel:4073509371"><p style={{ marginTop: '-.5rem' }}>407-350-9371</p></a>
-                    <a href="mailto:onpointedance.a@gmail.com"><p style={{ marginTop: '-.5rem' }}>onpointedance.a@gmail.com</p></a>
+                    <b><a href="tel:4073509371"><p style={{ marginTop: '-.5rem' }}><AiOutlinePhone /> 407-350-9371</p></a></b>
+                    <b><a href="mailto:onpointedance.a@gmail.com"><p style={{ marginTop: '-.5rem' }}><AiOutlineMail /> onpointedance.a@gmail.com</p></a></b>
                 </section>
             </section>
         </>

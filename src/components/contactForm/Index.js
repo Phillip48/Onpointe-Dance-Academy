@@ -24,7 +24,7 @@ const ContactForm = () => {
     return (
         <>
             <section className='holds-contact-section'>
-                <h1 className='intro-big' id='contact'>Have Any Questions? Lets talk!</h1>
+                <h1 className='intro-big' id='contact' style={{textAlign: 'center'}}>Have Any Questions? Lets talk!</h1>
                 <section className='holds-contact-section-row'>
                     <div className="map-wrap margin-side">
                         <div id='map'>

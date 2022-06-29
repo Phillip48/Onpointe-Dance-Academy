@@ -17,6 +17,7 @@ import RegisterPage from '../src/pages/Register';
 import Footer from '../src/components/footer/index';
 import AboutUs from '../src/components/aboutUs/index';
 import Classes from '../src/components/differentClasses/index';
+import CompPerTeam from '../src/pages/CompPerformanceTeam';
 
 function App() {
   return (
@@ -48,6 +49,10 @@ function App() {
           <Route
             path="/Register"
             element={<RegisterPage />}
+          />
+          <Route
+            path="/Competition&PerforamceTeam"
+            element={<CompPerTeam />}
           />
         </Routes>
         {/* Renders the footer to the bottom of each page */}

@@ -64,37 +64,52 @@ const Home = () => {
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-1">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <a href='/Classes'><p className="home-banner-text">Little Stars</p></a>
+                        <a href='/Classes'><p className="home-banner-classtext">Tumbling</p></a>
                     </div>
 
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-2">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <a href='/Classes'><p className="home-banner-text">Ballet</p></a>
+                        <a href='/Classes'><p className="home-banner-classtext">Ballet</p></a>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-3">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <a href='/Classes'><p className="home-banner-text">Tumbling</p></a>
+                        <a href='/Classes'><p className="home-banner-classtext">NA</p></a>
                     </div>
                         
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-4">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <a href='/Classes'><p className="home-banner-text">Hip Hop</p></a>
+                        <a href='/Classes'><p className="home-banner-classtext">Hip Hop</p></a>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-5">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                         <a href='/Classes'><p className="home-banner-text">Tap Dance</p></a>
+                         <a href='/Classes'><p className="home-banner-classtext">Tap Dance</p></a>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-6">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <a href='/Classes'><p className="home-banner-text">Latin</p></a>
+                        <a href='/Classes'><p className="home-banner-classtext">Latin</p></a>
+                    </div>
+
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-7">
+                        {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
+                        <a href='/Classes'><p className="home-banner-classtext">Jazz</p></a>
+                    </div>
+
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-8">
+                        {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
+                        <a href='/Classes'><p className="home-banner-classtext">Performance Team</p></a>
+                    </div>
+
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-9">
+                        {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
+                        <a href='/Classes'><p className="home-banner-classtext">Contemporary Team</p></a>
                     </div>
                 </div>
                 <div className="holds-register-form-button-link margin-top">

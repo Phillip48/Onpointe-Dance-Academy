@@ -14,10 +14,26 @@ const Classes = () => {
         <>
             {/* Different classes offered */}
             <section className="classes-holds-everything">
+                <div className="classes-banner-top-page">
+                    <h1 className="classes-banner-text">Classes and Registeration</h1>
+                </div>
                 {/* class info */}
+                <div className="holds-register-form-button-link">
+                    <h2 style={{color: '#fe0002'}}><b> Interested in joining the performance or competition team? </b></h2>
+                    <a href='/Competition&PerforamceTeam'><button className="contact-form-labels-submit">
+                        Lets Go!
+                    </button></a>
+
+                    {/* <div className="class-holds-class-img">
+                        <img alt='gallery' src={toddlergallerypic} className='class-image'></img>
+                        <img alt='gallery' src={inclassphoto} className='class-image'></img>
+                    </div> */}
+
+                </div>
                 <section className="classes-holds-class-info">
 
                     <div className="classes-text-info">
+
                         <h2><b>Ballet Stars:  </b></h2>
                         <p className="indent-class-text"><b>Ages: </b>3 to 5 years old</p>
                         <p className="indent-class-text">This a class that combines ballet, and creative dance. Children will learn coordination, grace, beginning ballet steps, and other steps that can transform and be used in any other styles of Dance.</p>
@@ -64,7 +80,7 @@ const Classes = () => {
                 {/* possibly make a slider or 
                 add more photos like a gallery  */}
                 <div className="holds-register-form-button-link">
-                    <h3>Interested in becoming a dance student?</h3>
+                    <h3 style={{color: '#fe0002'}}><b>Interested in becoming a dance student?</b></h3>
                     <a href='/Register'><button className="contact-form-labels-submit">
                         Register Now!
                     </button></a>

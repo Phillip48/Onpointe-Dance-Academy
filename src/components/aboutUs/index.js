@@ -10,10 +10,11 @@ const AboutUsComp = () => {
     return (
         <>
             <section className="aboutus-holds-everything">
-                {/* Banner at the top for About us */}
-                <div className="aboutus-top-banner">
-                    {/* <img alt='aboutus header' src={TempPic} className='header-for-aboutus-top'></img> */}
+                <div className="aboutus-banner-top-page">
+                    <h1 className="aboutus-banner-text">About Us</h1>
+                    <p className="home-banner-subtext">We are OnPointe Dance Academy</p>
                 </div>
+                {/* Banner at the top for About us */}
 
                 {/* subheader and text about the owner staff and company */}
                 <div className="aboutus-subheader-text">

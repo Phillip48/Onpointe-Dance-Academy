@@ -87,18 +87,19 @@
 .contact-form-labels-submit {
   padding: 0.4em;
   font: inherit;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   margin-top: 1rem;
   font-weight: 500;
   background-color: transparent;
-  border: 1px solid black;
+  border: 1px solid #fe0002;
+  color: #fe0002;
   border-radius: 6px;
   /* color: #fff; */
   cursor: pointer;
   transition: all .4s ease-in-out;
 }
 .contact-form-labels-submit:hover{
-  background-color: black;
+  background-color: #fe0002;
   color: white;
 }
 

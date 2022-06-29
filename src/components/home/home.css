@@ -32,6 +32,13 @@
     font-size: 3em;
 }
 
+.home-banner-classtext{
+    color: white;
+    border-bottom: 3px solid white;
+    text-align: center;
+    font-size: 2.5em;
+}
+
 .home-banner-subtext{
     margin-top: -1rem;
     color: white;
@@ -132,8 +139,9 @@
 }
 .holdsdifferent-class-options-home-div-2{
     border-radius: 25px;
-    background-image: url(../../assets/OPDANewimages/jazzphoto.PNG);
-    background-position: 20% 55%;
+    background-image: url(../../assets/OPDANewimages/ballet.JPG);
+    background-position: top;
+    /* background-position: 20% 55%; */
     background-size: cover;
     height: 25vh;
 }
@@ -165,6 +173,31 @@
     margin-top: 2.5rem;
     border-radius: 25px;
     background-image: url(../../assets/OPDANewimages/latin.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+}
+.holdsdifferent-class-options-home-div-7{
+    margin-top: 2.5rem;
+    border-radius: 25px;
+    background-image: url(../../assets/OPDANewimages/jazzphoto.PNG);
+    background-position: 20% 55%;
+    /* background-position: center; */
+    background-size: cover;
+    height: 25vh;
+}
+.holdsdifferent-class-options-home-div-8{
+    margin-top: 2.5rem;
+    border-radius: 25px;
+    background-image: url(../../assets/OPDANewimages/0finishingperformance2.JPEG);
+    background-position: center;
+    background-size: cover;
+    height: 25vh;
+}
+.holdsdifferent-class-options-home-div-9{
+    margin-top: 2.5rem;
+    border-radius: 25px;
+    background-image: url(../../assets/OPDAimg/1homeclassusekidsmaybetapdance.JPG);
     background-position: center;
     background-size: cover;
     height: 25vh;
