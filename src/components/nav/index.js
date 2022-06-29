@@ -14,11 +14,11 @@ const Nav = () => {
                     <a href='/'><img alt='logo' className="navbar-logo" src={DanceLogo}></img></a>
                 </div>
                 <div className="holds-page-options">
-                    <a href='/AboutUs' className="navbar-a-element"><h4>About Us</h4></a>
+                    <a href='/AboutUs' className="navbar-a-element"><h4 style={{textAlign: 'center'}}>About Us</h4></a>
                     <div className="div-padding-1"></div>
-                    <a href='/Classes' className="navbar-a-element"><h4>Classes/Registration</h4></a>
+                    <a href='/Classes' className="navbar-a-element"><h4 style={{textAlign: 'center'}}>Classes/Registration</h4></a>
                     <div className="div-padding-1"></div>
-                    <a href='/ContactMe' className="navbar-a-element"><h4>Contact Me</h4></a>
+                    <a href='/ContactMe' className="navbar-a-element"><h4 style={{textAlign: 'center'}}>Contact Me</h4></a>
                 </div>
             </header>
         </>

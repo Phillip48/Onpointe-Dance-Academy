@@ -24,7 +24,7 @@ tr:nth-child(even) {
 }
 
 .register-form-with-info-2-sides {
-  margin: 4rem;
+  /* margin: 4rem; */
   display: flex;
 }
 
@@ -122,9 +122,9 @@ tr:nth-child(even) {
   .holds-registeration-form {
     width: 80%;
   }
-  .register-form-with-info-2-sides {
+  /* .register-form-with-info-2-sides {
     margin: 2rem;
-  }
+  } */
 }
 
 @media screen and (max-width: 530px) {

@@ -35,7 +35,7 @@ const CompandPerfteamcomp = () => {
                 </div>
 
                 <div className="holds-comp-form-button-link margin-top">
-                    <h3 style={{ color: '#fe0002' }}><b>Interested in becoming a dance student?</b></h3>
+                    <h3 style={{ color: '#fe0002', textAlign: 'center' }}><b>Interested in becoming a dance student?</b></h3>
                     <p>Please contact director <b>Brianna Roman</b> to register for the Perforamce or Competition Team</p>
                     <b><a href="tel:4073509371"><p style={{ marginTop: '-.5rem' }}><AiOutlinePhone /> 407-350-9371</p></a></b>
                     <b><a href="mailto:onpointedance.a@gmail.com"><p style={{ marginTop: '-.5rem' }}><AiOutlineMail /> onpointedance.a@gmail.com</p></a></b>

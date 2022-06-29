@@ -6,7 +6,8 @@
 .aboutus-holds-everything{
     display: flex;
     flex-direction: column;
-    margin: 2.5rem;
+    align-items: center;
+    /* margin: 2.5rem; */
 }
 
 
@@ -51,11 +52,13 @@
     display: flex;
     flex-direction: column;
    align-items: center;
+   width: 80%;
 }
 
 
 
 .aboutus-staff-holds-photo-div{
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -70,13 +73,13 @@
 }
 
 .aboutus-staff-photo{
-    width: 60%;
+    width: 50%;
 }
 
 .aboutus-staff-holds-text{
     width: 45%;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 980px) {
     .aboutus-staff-holds-text{width: 100%;}
     .aboutus-staff-photo{width: 90%;}
 }

@@ -4,9 +4,12 @@ import '../differentClasses/classes.css'
 // import TempPic from '../../assets/placeholder img.webp';
 // import inclassphoto from '../../assets/OPDAimg/1inclassstretchesresize.JPG';
 import toddlergallerypic from '../../assets/OPDAimg/toddlerteamdresspic.JPG';
-import hiphopphoto from '../../assets/OPDAimg/1adultsglowinthedark.JPG';
+import adultperformancephoto from '../../assets/OPDAimg/1adultperformancepic1.JPG';
 import balletphoto from '../../assets/OPDAimg/kidsballet.JPG';
 import performancephoto from '../../assets/OPDAimg/1adultperformancejumping.JPG';
+import strengthphoto from '../../assets/OPDANewimages/1inclassstretchesresize.JPG';
+import adultholdingphoto from '../../assets/OPDAimg/adultsteamperformance.JPG';
+
 
 const Classes = () => {
 
@@ -19,7 +22,7 @@ const Classes = () => {
                 </div>
                 {/* class info */}
                 <div className="holds-register-form-button-link">
-                    <h2 style={{color: '#fe0002'}}><b> Interested in joining the performance or competition team? </b></h2>
+                    <h2 style={{ color: '#fe0002', textAlign: 'center' }}><b> Interested in joining the performance or competition team? </b></h2>
                     <a href='/Competition&PerforamceTeam'><button className="contact-form-labels-submit">
                         Lets Go!
                     </button></a>
@@ -34,27 +37,50 @@ const Classes = () => {
 
                     <div className="classes-text-info">
 
-                        <h2><b>Ballet Stars:  </b></h2>
-                        <p className="indent-class-text"><b>Ages: </b>3 to 5 years old</p>
-                        <p className="indent-class-text">This a class that combines ballet, and creative dance. Children will learn coordination, grace, beginning ballet steps, and other steps that can transform and be used in any other styles of Dance.</p>
+
                         <h2><b>Ballet:  </b></h2>
-                        <p className="indent-class-text">Ages: 6 years and up</p>
-                        <p className="indent-class-text">This class combines ballet, and contemporary movements. Children will acquire all the skills from Ballet bits.  In addition, children will learn basic to intermediate ballet steps, technique, and terminology.  They will be able to create art through the expression of dance and movement.</p>
+                        {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
+                        <p className="indent-class-text">Is the most important form of dance and is required by all performance and company students. Ballet is a classical style that will work on grace, precision and formalized technique. Classes include barre work, center work, and across the floor. Ages 5 and up </p>
+                        <p className="indent-class-text">Pointe (ages 11 and up) Is offered to ballet students who have attained the necessary development and ballet technique. Students must take 2 other ballet classes to enter. Acceptance into this class is by teacher recommendation only. </p>
+                        <p className="indent-class-text">Ballet stars ages 2-4. This class combines ballet and creative movement. Children will learn, coordination, grace, beginning ballet steps, and other steps that can be transformed and used in any other styles of dance. </p>
+
+                        <h2><b>Tap:  </b></h2>
+                        {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
+                        <p className="indent-class-text">Tap characterizes by using sounds of taps sticking the floor. Tap dance focuses on musicality and the development of rhythms through movement. Ages 6 and up </p>
+
+                        <h2><b>Jazz:  </b></h2>
+                        {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
+                        <p className="indent-class-text">Jazz class will teach your dancer body strength, coordination, flexibility, stamina, and technique, all while dancing to contemporary/popular music. Class typically consists of warm up, center work, across the floor, and combinations. Ages 5 and up </p>
+
+                        <h2><b>Musical Theater:  </b></h2>
+                        {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
+                        <p className="indent-class-text">Musical theater is a genre of drama that includes styles of broadway jazz and teaches various forms of stage presence. A theatrical performance that combines song, dance and acting. It is the style that graces stages all over the world in hit shows like “Wicked” and “Hairspray” on broadway. Ages 8 and above. Student must be registered in ballet or jazz to sign up. </p>
+
 
                         <h2><b>Hip Hop:  </b></h2>
-                        <p className="indent-class-text"><b>Ages: </b>5 yeas and up</p>
-                        <p className="indent-class-text">This is a Dance class that involves the modern moves of Hip Hop. Our goal is to encourage young minds and bodies not only to dance, but to evolve around music, to feel music, and to be creative with music. In this program your child will grow self confidence, learn rhythm and beat, an learn different styles of Hip Hop.</p>
+                        {/* <p className="indent-class-text"><b>Ages: </b>5 yeas and up</p> */}
+                        <p className="indent-class-text">This class involves the modern moves of Hip hop. In this class your child will grow self confidence, coordination, rhythm and beat. Ages 5 and up </p>
 
-                        <h2><b>Tumbling Stars:  </b></h2>
-                        <p className="indent-class-text"><b>Ages: </b>3 to 5 years old</p>
-                        <p className="indent-class-text">Tumble Bits is an acrobatic class that includes physical movements that require the integration of strength, flexibility, balance, grace, and agility. Children will learn basic tumbling skills like forward rolls, cart wheels and hand stands.</p>
                         <h2><b>Tumbling:  </b></h2>
-                        <p className="indent-class-text">Ages: 6 years and up</p>
-                        <p className="indent-class-text">Children will acquire all the skills from tumble bits.  In addition, children will learn beginning skills like cart wheels and hand stands.   Based on individual progress, children can advance to skills like aerials and back handsprings.</p>
+                        {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
+                        <p className="indent-class-text"> This class will develop strength and flexibility while mastering acrobatic skills. Each student is individually coached in class and safety is always the first consideration. This class concentrates on floor work. Teachers are safety certified. Ages 5 and up </p>
 
-                        <h2><b>Little Stars:  </b></h2>
-                        <p className="indent-class-text"><b>Ages: </b>18 to 36 months</p>
-                        <p className="indent-class-text">Little Bits is a Dance class that teaches the youngest of student the love for movement and dance. This class will incorporate creative movement , and basic dance and tumbling skills.</p>
+                        <h2><b>Leaps and turns:  </b></h2>
+                        {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
+                        <p className="indent-class-text"> This class for the more intermediate to advance dancer that will focus on the techniques of jumps, turns, and flexibility. </p>
+
+                        <h2><b>Stretch and conditioning:  </b></h2>
+                        {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
+                        <p className="indent-class-text"> This class is designed to strengthen and stretch your muscles form head to toe. This class also consist of training for proper body alignment that can help student advance in other styles of dance. </p>
+
+                        <h2><b>Contemporary:  </b></h2>
+                        {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
+                        <p className="indent-class-text">Break free and indulge yourself in a style of interpretive dance that embraces innovation. Contemporary blends techniques from various genres that include ballet, jazz, modern dance, and lyrical. </p>
+
+                        <h2><b>Latin:  </b></h2>
+                        {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
+                        <p className="indent-class-text">Learn basic to advance movements of salsa, bachata, cha cha, and partnering. Students will immerse themselves into the technical steps and movements of each style. Ages 8 and up </p>
+
                     </div>
 
 
@@ -62,25 +88,21 @@ const Classes = () => {
                     {/* schedule */}
                     <div className="classes-text-schedule">
                         <img alt='ballet' className="class-image" src={performancephoto}></img>
-                        <div className="div-padding-verysmall"></div>
-                        <img alt='ballet' className="class-image" src={balletphoto}></img>
-                        <div className="div-padding-verysmall"></div>
-                        <img alt='ballet' className="class-image" src={hiphopphoto}></img>
-                        <div className="div-padding-verysmall"></div>
                         <img alt='ballet' className="class-image" src={toddlergallerypic}></img>
-                        {/* <p>Monday- blah</p>
-                        <p>Monday- blah</p>
-                        <p>Monday- blah</p>
-                        <p>Monday- blah</p>
-                        <p>Monday- blah</p>
-                        <p>Monday- blah</p> */}
+                        {/* <div className="div-padding-verysmall"></div> */}
+                        <img alt='ballet' className="class-image" src={balletphoto}></img>
+                        <img alt='ballet' className="class-image" src={adultperformancephoto}></img>
+                        {/* <div className="div-padding-verysmall"></div> */}
+                        {/* <div className="div-padding-verysmall"></div> */}
+                        <img alt='ballet' className="class-image" src={strengthphoto}></img>
+                        <img alt='ballet' className="class-image" src={adultholdingphoto}></img>
                     </div>
                 </section>
 
                 {/* possibly make a slider or 
                 add more photos like a gallery  */}
                 <div className="holds-register-form-button-link">
-                    <h3 style={{color: '#fe0002'}}><b>Interested in becoming a dance student?</b></h3>
+                    <h3 style={{ color: '#fe0002' }}><b>Interested in becoming a dance student?</b></h3>
                     <a href='/Register'><button className="contact-form-labels-submit">
                         Register Now!
                     </button></a>

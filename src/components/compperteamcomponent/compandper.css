@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2.5rem;
+  /* margin: 2.5rem; */
 }
 
 .comp-banner-top-page {
@@ -41,11 +41,55 @@
   margin-top: 2rem;
 }
 .holds-comp-form-button-link {
+  margin: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   /* justify-content: center; */
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1700px) {
+  iframe{
+    width: 1300px;
+    /* width: ; */
+  }
+}
+
+
+@media screen and (max-width: 1360px) {
+  iframe{
+    width: 1000px;
+    /* width: ; */
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+  iframe{
+    width: 850px;
+    /* width: ; */
+  }
+}
+
+@media screen and (max-width: 940px) {
+  iframe{
+    width: 600px;
+    /* width: ; */
+  }
+}
+
+@media screen and (max-width: 660px) {
+  iframe{
+    width: 400px;
+    /* width: ; */
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  iframe{
+    width: 300px;
+    /* width: ; */
+  }
 }

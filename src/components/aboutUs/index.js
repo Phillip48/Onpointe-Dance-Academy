@@ -18,8 +18,8 @@ const AboutUsComp = () => {
 
                 {/* subheader and text about the owner staff and company */}
                 <div className="aboutus-subheader-text">
-                    <h1>Learn More About Us...</h1>
-                    <p>We strive blah blah blah...</p>
+                    <h1 style={{ color: '#fe0002' }}>Learn More About Us...</h1>
+                    <p>Brianna Roman started in 2009 with only 7 students. Its purpose was to bring dance to the local schools, giving opportunities to all students to be able to dance, and continues to do so. It has since multiplied and she has been teaching the love of dance in the Orlando area. We teach all styles of dance from Ballet, tap, jazz, hip hop, tumbling, and contemporary, to ethnic dances like Latin, African, and Bollywood. We continue to teach dance at local schools, but has since found a place to call home at 11184 South Apopka Vineland Rd. This location has allowed the academy to grow and open more opportunities. The academy now has 4 performance teams starting at age 5. These teams perform at local events including Disney and Orlando Magic. The academy as well has a competition company that competes at competitions around the central florida area. Whether on our teams or recreational classes performances here at On Pointe are an important key to our program. Children await them with confidence and enthusiasm. The goal of On pointe dance academy is being accomplished by opening opportunities for all children to explore the world of dance through expression, and creativity. Dance is more than the word it is a sport and an art all in one.</p>
                 </div>
 
                 {/* Staff photo and text */}
@@ -30,9 +30,8 @@ const AboutUsComp = () => {
                     </div>
 
                     <div className="aboutus-staff-holds-text">
-                        <p>Brianna Roman started in 2009 with only 7 students. Its purpose was to bring dance to the local schools, giving opportunities to all students to be able to dance, and continues to do so. It has since multiplied and has been teaching the love of dance in the areas of Kissimmee and Orlando. We teach all styles of dance from Ballet, tap, jazz, hip hop, tumbling, and contemporary, to ethnic dances like Latin, African, and Bollywood. All props and mats are part of the program,and are brought in by the instructor, making it easy for schools to use this program from year to year. Performances are an important key to our program and children await them
-                            with confidence and enthusiasm. The goal of On pointe dance academy is being accomplished by opening opportunities for all children to explore the world of dance through expression and creativity. Dance is more than the word it is a sport and an art all in one.</p>
-                        <p>Mrs. Roman started dance at the age of 3 at Leggz Dance Academy. She was introduced to dance by her grandmother who noticed that she needed to release some extra energy. She started off in a creative dance, and in the following years she began to love dance and decided to extend her knowledge into other styles of dance totaling up to 10 classes per week. At the age of 17 she was offered a job to teach dance and at the age of 19 decided to start her own business teaching dance at local schools. She continues with her business which has increased to various schools, and is also teaching at the same dance studio she started at when she was 3.</p>
+                        <h1 style={{ color: '#fe0002', textAlign: 'center' }}>Brianna Roman</h1>
+                        <p>Mrs. Brianna started dance at the age of 3 at Leggz Dance Academy. She was introduced to dance by her grandmother who noticed that she needed to release some extra energy. She started off in a creative dance, and in the following years she began to love dance and decided to extend her knowledge into other styles of dance totaling up to 10 classes per week. At the age of 17 she was offered a job to teach dance and at the age of 19 decided to start her own business teaching dance at local schools. Mrs. Brianna ballet training is in The Royal Academy of Dance finishing grade 8. She is U.S.A gymnastics safety certified and CPR certified. With over 20 years of training and 15 years in the industry her passion continues to grow through the students she teaches. </p>
                     </div>
                 </section>
 
@@ -42,6 +41,7 @@ const AboutUsComp = () => {
                     </div>
 
                     <div className="aboutus-staff-holds-text">
+                        <h1 style={{ color: '#fe0002', textAlign: 'center' }}>Candice</h1>
                         <p>Candice began dancing when she was 6 years old. Her passion grew with her her whole life and has studied many styles from Ballet all the way to African dance. She attended Osceola County School for the Arts and majored in dance. She has completed the Royal Academy of Dance exams and awarded through Grade 8. She studied Modern Dance and Ballet as a minor from Florida Atlantic University. Choreographed for productions for the duration of her studies at FAU. Candice has been teaching all levels and multiple styles since 2015 and loves every minute of it. She is U.S.A gymnastics safety certified and CPR certified. She is currently dancing professionally with RPD Dance Co. being booked for several performance opportunities. Dance is her world and she can’t wait to share that passion with the students of On Pointe Dance Academy.
                         </p>
                     </div>
