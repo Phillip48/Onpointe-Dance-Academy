@@ -5,7 +5,7 @@
 /* #fe0002 color red */
 
 /* .main-holds-home-page{
-    /* margin: 2.5rem;
+     margin: 2.5rem;
 } */
 
 .div-padding-1-home{
@@ -36,7 +36,7 @@
     color: white;
     border-bottom: 3px solid white;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
 }
 
 .home-banner-subtext{
@@ -109,6 +109,7 @@
     color: #fe0002;
 }
 .home-different-classes{
+    margin: 2rem;
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
@@ -232,6 +233,10 @@
 
 /* ======================== */
 
+@media screen and (max-width: 1700px) {
+
+}
+
 @media screen and (max-width: 1050px) {
     .holdsdifferent-class-options-home-div:hover{
         padding: 0;
@@ -243,12 +248,15 @@
         width: 45%;
     }
 }
-/* 
-@media screen and (max-width: 800px) {
-    /* .div-padding-1-home{
-        padding: 0;
-    } 
-} */
+
+@media screen and (max-width: 850px) {
+    .holdsdifferent-class-options-home-div{
+        width: 45%;
+    }
+    .holdsdifferent-class-options-home-div-3{
+        margin-top: 2.5rem;
+    }
+}
 
 @media screen and (max-width: 775px) {
     .home-right-text{
@@ -289,21 +297,18 @@
     .holdsdifferent-class-options-home-div-3,
     .holdsdifferent-class-options-home-div-4,
     .holdsdifferent-class-options-home-div-5,
-    .holdsdifferent-class-options-home-div-6{
+    .holdsdifferent-class-options-home-div-6,
+    .holdsdifferent-class-options-home-div-7,
+    .holdsdifferent-class-options-home-div-8,
+    .holdsdifferent-class-options-home-div-9{
         height: 20vh;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .holdsdifferent-class-options-home-div{
-        width: 45%;
+    .home-banner-classtext{
+        font-size: 1.4em;
     }
-    .holdsdifferent-class-options-home-div-3{
-        margin-top: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 400px) {
     /* .home-classes-options{
         padding: 0;
     } */

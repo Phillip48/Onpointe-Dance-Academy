@@ -49,47 +49,46 @@
   /* justify-content: center; */
 }
 
+.pdf-iframe{
+  height: 700px;
+  width: 1500px;
+}
+
 @media screen and (max-width: 1700px) {
-  iframe{
+  .pdf-iframe{
     width: 1300px;
-    /* width: ; */
   }
 }
 
 
 @media screen and (max-width: 1360px) {
-  iframe{
+  .pdf-iframe{
     width: 1000px;
-    /* width: ; */
   }
 }
 
 
 @media screen and (max-width: 1050px) {
-  iframe{
+  .pdf-iframe{
     width: 850px;
-    /* width: ; */
   }
 }
 
 @media screen and (max-width: 940px) {
-  iframe{
+  .pdf-iframe{
     width: 600px;
-    /* width: ; */
   }
 }
 
 @media screen and (max-width: 660px) {
-  iframe{
+  .pdf-iframe{
     width: 400px;
-    /* width: ; */
   }
 }
 
 
 @media screen and (max-width: 450px) {
-  iframe{
-    width: 300px;
-    /* width: ; */
+  .pdf-iframe{
+    width: 350px;
   }
 }
