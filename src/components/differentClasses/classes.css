@@ -12,7 +12,7 @@
   margin: 0;
   background-image: url(../../assets/OPDANewimages/IMG_1813\ \(2\).JPG);
   background-position: 25% 25%;
-  filter: grayscale(60%);
+  /* filter: grayscale(60%); */
   background-size: cover;
   display: flex;
   justify-content: center;

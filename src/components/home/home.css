@@ -258,14 +258,14 @@
     }
 }
 
-@media screen and (max-width: 775px) {
+/* @media screen and (max-width: 775px) {
     .home-right-text{
         width: 45%;
     }
     .holdsdifferent-class-options-home-div{
         width: 30%;
     }
-}
+} */
 
 @media screen and (max-width: 600px) {
     /* .home-classes-options{
@@ -307,7 +307,7 @@
 
 @media screen and (max-width: 450px) {
     .home-banner-classtext{
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     /* .home-classes-options{
         padding: 0;
