@@ -14,6 +14,9 @@ import Nav from '../src/components/nav/index.js';
 import Home from '../src/pages/HomePage';
 import Contact from '../src/pages/ContactMe';
 import RegisterPage from '../src/pages/Register';
+import NewsletterPage from '../src/pages/NewsletterPage';
+import NewsletterSuccess from "../src/pages/NewsletterSuccessPage";
+import NewsletterFail from "../src/pages/NewsletterFailPage";
 import Footer from '../src/components/footer/index';
 import AboutUs from '../src/components/aboutUs/index';
 import Classes from '../src/components/differentClasses/index';
@@ -53,6 +56,18 @@ function App() {
           <Route
             path="/Competition&PerforamceTeam"
             element={<CompPerTeam />}
+          />
+          <Route
+            path="/Newsletter"
+            element={<NewsletterPage />}
+          />
+          <Route
+            path="/Newslettersignupsuccess"
+            element={<NewsletterSuccess />}
+          />
+          <Route
+            path="/Newslettersignupfailed"
+            element={<NewsletterFail />}
           />
         </Routes>
         {/* Renders the footer to the bottom of each page */}

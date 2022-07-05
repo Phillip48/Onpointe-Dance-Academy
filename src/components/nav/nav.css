@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+.div-padding-1-nav{
+        padding: 1rem;
+}
+
 .hold-everything-navbar{
     display: flex;
     flex-direction: row;
@@ -38,7 +42,7 @@
 }
 
 /* ========================================== */
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 710px) {
     .hold-everything-navbar{
         margin-top: .3rem;
         flex-direction: column;
@@ -48,20 +52,30 @@
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
     .navbar-a-element{
         font-size: 1em;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 420px) {
     .navbar-a-element{
         font-size: .8em;
     }
+
 }
 
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 390px) {
+    .div-padding-1-nav{
+        padding: .5rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
     .navbar-a-element{
         font-size: .7em;
+    }
+    .div-padding-1-nav{
+        padding: .3rem;
     }
 }

@@ -36,6 +36,17 @@ const Home = () => {
                     </div>
                 </div>
 
+                <div className="home-mission-statement">
+                    <div className="home-mission-statement-text">
+                        <h2 className="home-mission-statement-header">Want to stay up to date?</h2>
+                        <p>Signup for our newsletter and receive the latest information about classes and performances!</p>
+                        <a href='/Newsletter'><button className="contact-form-labels-submit">
+                            Newsletter!
+                        </button></a>
+
+                    </div>
+                </div>
+
                 {/* 2 part of figma home text and image right left */}
                 {/* <section className="home-text-and-image">
                     <div className="home-left-image">

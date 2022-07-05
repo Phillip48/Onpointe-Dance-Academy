@@ -15,9 +15,11 @@ const Nav = () => {
                 </div>
                 <div className="holds-page-options">
                     <a href='/AboutUs' className="navbar-a-element"><h4 style={{textAlign: 'center'}}>About Us</h4></a>
-                    <div className="div-padding-1"></div>
+                    <div className="div-padding-1-nav"></div>
                     <a href='/Classes' className="navbar-a-element"><h4 style={{textAlign: 'center'}}>Classes/Registration</h4></a>
-                    <div className="div-padding-1"></div>
+                    <div className="div-padding-1-nav"></div>
+                    <a href='/Newsletter' className="navbar-a-element"><h4 style={{ textAlign: 'center' }}>OPDA Newsletter</h4></a>
+                    <div className="div-padding-1-nav"></div>
                     <a href='/ContactMe' className="navbar-a-element"><h4 style={{textAlign: 'center'}}>Contact Me</h4></a>
                 </div>
             </header>
