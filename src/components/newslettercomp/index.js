@@ -4,14 +4,15 @@ import '../newslettercomp/style.css'
 
 
 const NewsletterComp = () => {
-
+    
+    
     return (
         <>
             <section className="holds-all-newsletter">
                 <div className="holds-newsletter-form">
                     <h1 className="home-mission-statement-header">Newsletter Signup</h1>
                     <p>Enter your information and get up to date on everything OPDA!</p>
-                    <form name='contact' className='newsletter-form-input'>
+                    {/* <form name='contact' className='newsletter-form-input'>
                         <div className="newsletter-form-labels">
                             <label htmlFor="name" className='para-text-small-form'>
                                 Full Name
@@ -26,8 +27,8 @@ const NewsletterComp = () => {
                         </div>
                         <button type="submit" className="newsletter-form-labels-submit">
                             Submit
-                        </button>
-                    </form>
+                        </button> 
+                    </form> */}
                 </div>
             </section>
         </>
