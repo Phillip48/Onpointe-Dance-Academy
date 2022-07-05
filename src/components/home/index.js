@@ -104,7 +104,7 @@ const Home = () => {
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-8">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                        <a href='/Classes'><p className="home-banner-classtext">Performance Team</p></a>
+                        <a href='/Competition&PerforamceTeam'><p className="home-banner-classtext">Performance Team</p></a>
                     </div>
 
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-9">
