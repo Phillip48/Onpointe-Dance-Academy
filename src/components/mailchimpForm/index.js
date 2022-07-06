@@ -88,6 +88,7 @@ const CustomForm = ({ status, message, onValidated }) => {
             </div>
             <div className='holds-primaryBtm-form'>
                 <InputField
+                    style={{textAlign: 'center'}}
                     label="subscribe"
                     type="submit"
                     formValues={[email, firstName, lastName]}

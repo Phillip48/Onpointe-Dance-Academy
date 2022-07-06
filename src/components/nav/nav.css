@@ -60,18 +60,21 @@
     margin-top: 0.3rem;
     flex-direction: column;
   }
+  .navbar-a-element-modal-button,
   .navbar-a-element {
     font-size: 1.1em;
   }
 }
 
 @media screen and (max-width: 500px) {
+  .navbar-a-element-modal-button,
   .navbar-a-element {
     font-size: 1em;
   }
 }
 
 @media screen and (max-width: 420px) {
+  .navbar-a-element-modal-button,
   .navbar-a-element {
     font-size: 0.8em;
   }
@@ -84,6 +87,7 @@
 }
 
 @media screen and (max-width: 370px) {
+  .navbar-a-element-modal-button,
   .navbar-a-element {
     font-size: 0.7em;
   }
