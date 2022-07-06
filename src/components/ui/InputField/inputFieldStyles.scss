@@ -71,11 +71,29 @@ input[disabled] {
   // background-color: v.$primaryDark2;
   cursor: default;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
-  font-size: .62em;
+  font-size: 1em;
 
   &:hover {
     // background-color: v.$primaryDark2;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.45);
     transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .input[disabled] {
+     font-size: .8em;
+  }
+}
+
+@media screen and (max-width: 650px){
+  .input[disabled] {
+     font-size: .6em;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .input[disabled] {
+     font-size: .5em;
   }
 }
