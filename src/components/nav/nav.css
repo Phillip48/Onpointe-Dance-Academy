@@ -1,81 +1,93 @@
-
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-.div-padding-1-nav{
-        padding: 1rem;
+.div-padding-1-nav {
+  padding: 1rem;
 }
 
-.hold-everything-navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: 2rem;
+.hold-everything-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
 }
 
-.navbar-logo{
-    width: 120px;
+.navbar-logo {
+  width: 120px;
 }
 
-.holds-page-options{
-    display: flex;
-    justify-content: center;
+.holds-page-options {
+  display: flex;
+  justify-content: center;
 }
 
-.navbar-a-element{
-    font-size: 1.3em;
-    transition: all .4s ease-in-out;
-    /* color: #fff; */
+.navbar-a-element {
+  font-size: 1.3em;
+  transition: all 0.4s ease-in-out;
+  /* color: #fff; */
 }
-.navbar-a-element:hover{
-    color: #fe0002;
-    /* font-size: 200%; */
-    margin: 0;
-    transform: scale(1.2);
-    /* padding-bottom: .5rem; */
+.navbar-a-element:hover {
+  /* color: #fe0002; */
+  /* font-size: 200%; */
+  margin: 0;
+  transform: scale(1.2);
+  /* padding-bottom: .5rem; */
 }
 
-.holds-page-options-mobile{
-    display: none;
+.navbar-a-element-modal-button {
+  cursor: pointer;
+  font-size: 1.3em;
+  transition: all 0.4s ease-in-out;
+}
+.navbar-a-element-modal-button:hover {
+  cursor: pointer;
+  /* color: #fe0002; */
+  /* font-size: 200%; */
+  margin-top: 1.7rem;
+  transform: scale(1.2);
+  /* padding-bottom: .5rem; */
+}
+
+.holds-page-options-mobile {
+  display: none;
 }
 
 /* ========================================== */
 @media screen and (max-width: 710px) {
-    .hold-everything-navbar{
-        margin-top: .3rem;
-        flex-direction: column;
-    }
-    .navbar-a-element{
-        font-size: 1.1em;
-    }
+  .hold-everything-navbar {
+    margin-top: 0.3rem;
+    flex-direction: column;
+  }
+  .navbar-a-element {
+    font-size: 1.1em;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .navbar-a-element{
-        font-size: 1em;
-    }
+  .navbar-a-element {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 420px) {
-    .navbar-a-element{
-        font-size: .8em;
-    }
-
+  .navbar-a-element {
+    font-size: 0.8em;
+  }
 }
 
 @media screen and (max-width: 390px) {
-    .div-padding-1-nav{
-        padding: .5rem;
-    }
+  .div-padding-1-nav {
+    padding: 0.5rem;
+  }
 }
 
 @media screen and (max-width: 370px) {
-    .navbar-a-element{
-        font-size: .7em;
-    }
-    .div-padding-1-nav{
-        padding: .3rem;
-    }
+  .navbar-a-element {
+    font-size: 0.7em;
+  }
+  .div-padding-1-nav {
+    padding: 0.3rem;
+  }
 }

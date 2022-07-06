@@ -1,19 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../home/home.css'
-// import TempPic from '../../assets/placeholder img.webp';
-// import HomepageBanner from '../../assets/OPDAimg/1OPDAperformanceingameresize.JPG';
-// import Homepagesmallerbanner from '../../assets/OPDAimg/1OPDAperformanceingameresize.JPG';
-// import Homesmalldancepic from '../../assets/OPDAimg/1adultperformancejumping.JPG';
-// import Homeclassballet from '../../assets/OPDAimg/1homeclassusekidsmaybetapdance.JPG';
-// import Homeclasshiphop from '../../assets/OPDAimg/1adultperformancejumping.JPG';
-// // import Homeclasstumbling from '../../assets/OPDAimg/1adultperformancejumping.JPG';
-// import Homeclasslittlestars from '../../assets/OPDAimg/toddlersperformance.JPG';
+import ReactModal from 'react-modal';
 
 const Home = () => {
-
+    const [modalIsOpen, SetModalIsOpen] = useState(false)
     return (
         <>
+            <ReactModal
+                style={{
+                    marginLeft: 'auto',
+                    marginRight: 'auto'
+                }}
+                isOpen={modalIsOpen}
+                // shouldCloseOnOverlayClick={false}
+                onRequestClose={() => SetModalIsOpen(false)}
+            >
+                <section className="modal-header">
+                    <div>
+                        <h1 className="home-mission-statement-header">OPDA Newsletter</h1>
+                    </div>
+                    <div>
+                        <button onClick={() => SetModalIsOpen(false)} className="modal-close-button">
+                            Close
+                        </button>
+                    </div>
+
+                </section>
+                <section className="modal-body-content">
+                    <p style={{ textAlign: 'center' }}>Signup for the OPDA Newsletter!</p>
+                    <p style={{textAlign: 'center'}}>By signing up you'll stay up to date on when we have performances and on general OPDA topics. Plus it's free!</p>
+                    <a href='https://www.google.com/'><button className="modal-close-button">
+                        Newsletter
+                    </button></a>
+                </section>
+            </ReactModal>
+
             <main className="main-holds-home-page">
                 {/* Header under Navbar */}
                 <div className="home-banner-top-page">
@@ -40,9 +62,9 @@ const Home = () => {
                     <div className="home-mission-statement-text">
                         <h2 className="home-mission-statement-header">Want to stay up to date?</h2>
                         <p>Signup for our newsletter and receive the latest information about classes and performances!</p>
-                        <a href='/Newsletter'><button className="contact-form-labels-submit">
+                        <button onClick={() => SetModalIsOpen(true)} className="contact-form-labels-submit">
                             Newsletter!
-                        </button></a>
+                        </button>
 
                     </div>
                 </div>
@@ -90,16 +112,16 @@ const Home = () => {
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
                         <a href='/Classes'><p className="home-banner-classtext">Contemporary</p></a>
                     </div>
-                        
+
                     <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-4">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
                         <a href='/Classes'><p className="home-banner-classtext">Hip Hop</p></a>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
-                   <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-5">
+                    <div className="holdsdifferent-class-options-home-div holdsdifferent-class-options-home-div-5">
                         {/* <img alt='banner' className="home-classes-options" src={TempPic}></img> */}
-                         <a href='/Classes'><p className="home-banner-classtext">Tap Dance</p></a>
+                        <a href='/Classes'><p className="home-banner-classtext">Tap Dance</p></a>
                     </div>
                     {/* <div className="div-padding-1"></div> */}
 
@@ -124,7 +146,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="holds-register-form-button-link margin-top">
-                    <h2 style={{ textAlign: 'center'}}>Interested in becoming a dance student?</h2>
+                    <h2 style={{ textAlign: 'center' }}>Interested in becoming a dance student?</h2>
                     <a href='/Register'><button className="contact-form-labels-submit">
                         Register Now!
                     </button></a>

@@ -1,6 +1,5 @@
-
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 /* #fe0002 color red */
 
@@ -8,200 +7,200 @@
      margin: 2.5rem;
 } */
 
-.div-padding-1-home{
-    padding: 1rem;
+.div-padding-1-home {
+  padding: 1rem;
 }
 
-.home-banner-top-page{
-    margin: 0;
-    background-image: url(../../assets/OPDAimg/1OPDAperformanceingameresize.JPG);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 70vh;
+.home-banner-top-page {
+  margin: 0;
+  background-image: url(../../assets/OPDAimg/1OPDAperformanceingameresize.JPG);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 70vh;
 }
 
-.home-banner-text{
-    color: white;
-    border-bottom: 3px solid white;
-    text-align: center;
-    font-size: 3em;
+.home-banner-text {
+  color: white;
+  border-bottom: 3px solid white;
+  text-align: center;
+  font-size: 3em;
 }
 
-.home-banner-classtext{
-    color: white;
-    border-bottom: 3px solid white;
-    text-align: center;
-    font-size: 2em;
+.home-banner-classtext {
+  color: white;
+  border-bottom: 3px solid white;
+  text-align: center;
+  font-size: 2em;
 }
 
-.home-banner-subtext{
-    margin-top: -1rem;
-    color: white;
-    text-align: center;
-    font-size: 1.2em;
+.home-banner-subtext {
+  margin-top: -1rem;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
 }
 
-.home-top-banner{
-    width: 95%;
-    height: auto;
+.home-top-banner {
+  width: 95%;
+  height: auto;
 }
 
-.home-mission-statement{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+.home-mission-statement {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-.home-mission-statement-header{
-    color: #fe0002;
+.home-mission-statement-header {
+  color: #fe0002;
 }
 
-.home-mission-statement-text{
-    text-align: center;
-    width: 80%;
+.home-mission-statement-text {
+  text-align: center;
+  width: 80%;
 }
 /* =============================== */
-.home-text-and-image{
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
+.home-text-and-image {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.home-left-image{
-    display: flex;
-    width: 35%;
+.home-left-image {
+  display: flex;
+  width: 35%;
 }
 
-.home-side-image{
-    width: 80%;
+.home-side-image {
+  width: 80%;
 }
 
-.home-right-text{
-    display: flex;
-    width: 35%;
+.home-right-text {
+  display: flex;
+  width: 35%;
 }
 /* ================================================== */
 
-.home-midpage-banner{
-    background-image: url(../../assets/OPDAimg/soloperformance.JPG);
-    background-position: center;
-    margin-top: 2rem;
-    width: 100%;
-    height: 30vh;
-    margin-top: 2rem;
+.home-midpage-banner {
+  background-image: url(../../assets/OPDAimg/soloperformance.JPG);
+  background-position: center;
+  margin-top: 2rem;
+  width: 100%;
+  height: 30vh;
+  margin-top: 2rem;
 }
 
-.home-header-for-classes{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
+.home-header-for-classes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 }
-.home-class-header{
-    color: #fe0002;
+.home-class-header {
+  color: #fe0002;
 }
-.home-different-classes{
-    margin: 2rem;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.holdsdifferent-class-options-home-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    transition: all 0.2s ease-in-out;
-}
-.holdsdifferent-class-options-home-div:hover{
-    transform: scale(1.15);
-    cursor: pointer;
-    padding: 1.4rem;
+.home-different-classes {
+  margin: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-.holdsdifferent-class-options-home-div-1{
-    border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/toddlersperformance.JPG);
-    background-position: center;
-    background-size: cover;
-    height: 25vh;
+.holdsdifferent-class-options-home-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  transition: all 0.2s ease-in-out;
 }
-.holdsdifferent-class-options-home-div-2{
-    border-radius: 25px;
-    background-image: url(../../assets/OPDANewimages/ballet.JPG);
-    background-position: top;
-    /* background-position: 20% 55%; */
-    background-size: cover;
-    height: 25vh;
+.holdsdifferent-class-options-home-div:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  padding: 1.4rem;
 }
-.holdsdifferent-class-options-home-div-3{
-    /* margin-top: 2.5rem; */
-    border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/adultperformancepic5.JPG);
-    background-position: 25% 25%;
-    background-size: cover;
-    height: 25vh;
-    color: white;
+
+.holdsdifferent-class-options-home-div-1 {
+  border-radius: 25px;
+  background-image: url(../../assets/OPDAimg/toddlersperformance.JPG);
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
 }
-.holdsdifferent-class-options-home-div-4{
-    margin-top: 2.5rem;
-    border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/1adultsglowinthedark.JPG);
-    background-position: center;
-    background-size: cover;
-    height: 25vh;
+.holdsdifferent-class-options-home-div-2 {
+  border-radius: 25px;
+  background-image: url(../../assets/OPDANewimages/ballet.JPG);
+  background-position: top;
+  /* background-position: 20% 55%; */
+  background-size: cover;
+  height: 25vh;
 }
-.holdsdifferent-class-options-home-div-5{
-    margin-top: 2.5rem;
-    border-radius: 25px;
-    background-image: url(../../assets/OPDANewimages/tapdancephoto.jpg);
-    background-size: cover;
-    height: 25vh;
+.holdsdifferent-class-options-home-div-3 {
+  /* margin-top: 2.5rem; */
+  border-radius: 25px;
+  background-image: url(../../assets/OPDAimg/adultperformancepic5.JPG);
+  background-position: 25% 25%;
+  background-size: cover;
+  height: 25vh;
+  color: white;
 }
-.holdsdifferent-class-options-home-div-6{
-    margin-top: 2.5rem;
-    border-radius: 25px;
-    background-image: url(../../assets/OPDANewimages/latin.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 25vh;
+.holdsdifferent-class-options-home-div-4 {
+  margin-top: 2.5rem;
+  border-radius: 25px;
+  background-image: url(../../assets/OPDAimg/1adultsglowinthedark.JPG);
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
 }
-.holdsdifferent-class-options-home-div-7{
-    margin-top: 2.5rem;
-    border-radius: 25px;
-    background-image: url(../../assets/OPDANewimages/jazzphoto.PNG);
-    background-position: 20% 55%;
-    /* background-position: center; */
-    background-size: cover;
-    height: 25vh;
+.holdsdifferent-class-options-home-div-5 {
+  margin-top: 2.5rem;
+  border-radius: 25px;
+  background-image: url(../../assets/OPDANewimages/tapdancephoto.jpg);
+  background-size: cover;
+  height: 25vh;
 }
-.holdsdifferent-class-options-home-div-8{
-    margin-top: 2.5rem;
-    border-radius: 25px;
-    background-image: url(../../assets/OPDANewimages/0finishingperformance2.JPEG);
-    background-position: center;
-    background-size: cover;
-    height: 25vh;
+.holdsdifferent-class-options-home-div-6 {
+  margin-top: 2.5rem;
+  border-radius: 25px;
+  background-image: url(../../assets/OPDANewimages/latin.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
 }
-.holdsdifferent-class-options-home-div-9{
-    margin-top: 2.5rem;
-    border-radius: 25px;
-    background-image: url(../../assets/OPDAimg/1homeclassusekidsmaybetapdance.JPG);
-    background-position: center;
-    background-size: cover;
-    height: 25vh;
+.holdsdifferent-class-options-home-div-7 {
+  margin-top: 2.5rem;
+  border-radius: 25px;
+  background-image: url(../../assets/OPDANewimages/jazzphoto.PNG);
+  background-position: 20% 55%;
+  /* background-position: center; */
+  background-size: cover;
+  height: 25vh;
+}
+.holdsdifferent-class-options-home-div-8 {
+  margin-top: 2.5rem;
+  border-radius: 25px;
+  background-image: url(../../assets/OPDANewimages/0finishingperformance2.JPEG);
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
+}
+.holdsdifferent-class-options-home-div-9 {
+  margin-top: 2.5rem;
+  border-radius: 25px;
+  background-image: url(../../assets/OPDAimg/1homeclassusekidsmaybetapdance.JPG);
+  background-position: center;
+  background-size: cover;
+  height: 25vh;
 }
 /* 
 .one-project {
@@ -213,49 +212,111 @@
     padding: 1.4rem;
 } */
 
-.home-classes-options{
-    width: 85%;
-    height: auto;
-    padding: .5rem;
-    margin-top: .5rem;
+.home-classes-options {
+  width: 85%;
+  height: auto;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 /* ========================= */
-.home-contact-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 2rem;
+.home-contact-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
 }
-.home-contactme-header{
-    color: #fe0002;
+.home-contactme-header {
+  color: #fe0002;
 }
 
 /* ======================== */
 
-@media screen and (max-width: 1700px) {
+/* .holds-modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
 
+.modal-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.modal-close-button {
+  padding: 0.4em;
+  font: inherit;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #fe0002;
+  color: #fe0002;
+  border-radius: 6px;
+  /* color: #fff; */
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+.modal-close-button:hover {
+  background-color: #fe0002;
+  color: white;
+}
+
+.modal-body-content {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* .ReactModal__Overlay,
+.ReactModal__Body--open{
+    background-color: rgba(255, 255, 255, 0.75);
+} */
+
+.ReactModal__Content {
+  height: 30%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* .ReactModal__Overlay--after-open{
+    height: 50rem;
+    width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+} */
+
+/* ======================== */
+@media screen and (max-width: 1700px) {
 }
 
 @media screen and (max-width: 1050px) {
-    .holdsdifferent-class-options-home-div:hover{
-        padding: 0;
-    }
+  .holdsdifferent-class-options-home-div:hover {
+    padding: 0;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-    .home-left-image{
-        width: 45%;
-    }
+  .home-left-image {
+    width: 45%;
+  }
 }
 
 @media screen and (max-width: 850px) {
-    .holdsdifferent-class-options-home-div{
-        width: 45%;
-    }
-    .holdsdifferent-class-options-home-div-3{
-        margin-top: 2.5rem;
-    }
+  .holdsdifferent-class-options-home-div {
+    width: 45%;
+  }
+  .holdsdifferent-class-options-home-div-3 {
+    margin-top: 2.5rem;
+  }
 }
 
 /* @media screen and (max-width: 775px) {
@@ -268,50 +329,138 @@
 } */
 
 @media screen and (max-width: 600px) {
-    /* .home-classes-options{
+  /* .home-classes-options{
         padding: 0;
     } */
-    .home-classes-options{
-        width: 95%;
-    }
-    .home-banner-text{
-        font-size: 1.5em;
-    }
-    .home-banner-subtext{
-        font-size: 1em;
-    }
+  .home-classes-options {
+    width: 95%;
+  }
+  .home-banner-text {
+    font-size: 1.5em;
+  }
+  .home-banner-subtext {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .home-text-and-image{
-        flex-direction: column;
-    }
-    .home-right-text{
-        width: 75%;
-    }
-    .home-left-image{
-        width: 85%;
-    }
-    .holdsdifferent-class-options-home-div-1,
-    .holdsdifferent-class-options-home-div-2,
-    .holdsdifferent-class-options-home-div-3,
-    .holdsdifferent-class-options-home-div-4,
-    .holdsdifferent-class-options-home-div-5,
-    .holdsdifferent-class-options-home-div-6,
-    .holdsdifferent-class-options-home-div-7,
-    .holdsdifferent-class-options-home-div-8,
-    .holdsdifferent-class-options-home-div-9{
-        height: 20vh;
-    }
+  .home-text-and-image {
+    flex-direction: column;
+  }
+  .home-right-text {
+    width: 75%;
+  }
+  .home-left-image {
+    width: 85%;
+  }
+  .holdsdifferent-class-options-home-div-1,
+  .holdsdifferent-class-options-home-div-2,
+  .holdsdifferent-class-options-home-div-3,
+  .holdsdifferent-class-options-home-div-4,
+  .holdsdifferent-class-options-home-div-5,
+  .holdsdifferent-class-options-home-div-6,
+  .holdsdifferent-class-options-home-div-7,
+  .holdsdifferent-class-options-home-div-8,
+  .holdsdifferent-class-options-home-div-9 {
+    height: 20vh;
+  }
 }
 
 @media screen and (max-width: 450px) {
-    .home-banner-classtext{
-        font-size: 1.2em;
-    }
-    /* .home-classes-options{
+  .home-banner-classtext {
+    font-size: 1.2em;
+  }
+  /* .home-classes-options{
         padding: 0;
     } */
 }
 
 
+
+@media screen and (max-height: 1110px) {
+  .ReactModal__Content{
+    height: 40%;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  .ReactModal__Content{
+    height: 50%;
+  }
+}
+
+@media screen and (max-height: 641px) {
+  .ReactModal__Content{
+    height: 60%;
+  }
+}
+
+@media screen and (max-height: 535px) {
+  .ReactModal__Content{
+    height: 70%;
+  }
+}
+
+@media screen and (max-height: 460px) {
+  .ReactModal__Content{
+    height: 80%;
+  }
+}
+
+@media screen and (max-height: 401px) {
+  .ReactModal__Content{
+    height: 90%;
+  }
+}
+
+@media screen and (max-height: 357px) {
+  .ReactModal__Content{
+    height: 100%;
+  }
+}
+
+
+@media screen and (max-width: 580px) {
+  .ReactModal__Content{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .ReactModal__Content{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .ReactModal__Content{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .ReactModal__Content{
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 375px) and (max-height: 670px) {
+  .ReactModal__Content{
+    width: 80%;
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 412px) and (max-height: 915px) {
+  .ReactModal__Content{
+    width: 80%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 360px) and (max-height: 740px) {
+  .ReactModal__Content{
+    width: 80%;
+    height: 60%;
+  }
+}

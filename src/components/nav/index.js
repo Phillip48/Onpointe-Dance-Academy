@@ -1,13 +1,38 @@
-import React from "react";
+import React, {useState} from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../nav/nav.css'
-import DanceLogo from '../../assets/11OPDALOGO.JPG';
+import DanceLogo from '../../assets/11OPDALOGO.JPG'; 
+import ReactModal from 'react-modal';
 
 const Nav = () => {
     
-
+    const [modalIsOpen, SetModalIsOpen] = useState(false)
     return (
         <>
+            <ReactModal
+                isOpen={modalIsOpen}
+                shouldCloseOnOverlayClick={false}
+                onRequestClose={() => SetModalIsOpen(false)}
+            >
+                <section className="modal-header">
+                    <div>
+                        <h1 className="home-mission-statement-header">OPDA Newsletter</h1>
+                    </div>
+                    <div>
+                        <button onClick={() => SetModalIsOpen(false)} className="modal-close-button">
+                            Close
+                        </button>
+                    </div>
+                </section>
+                <section className="modal-body-content">
+                    <p style={{ textAlign: 'center' }}>Signup for the OPDA Newsletter!</p>
+                    <p style={{ textAlign: 'center' }}>By signing up you'll stay up to date on when we have performances and on general OPDA topics. Plus it's free!</p>
+                    <a href='https://www.google.com/'><button className="modal-close-button">
+                        Newsletter
+                    </button></a>
+                </section>
+            </ReactModal>
+
             <header className="hold-everything-navbar">
                 <div className="holds-logo">
                     {/* needs OPDA LOGO */}
@@ -18,7 +43,7 @@ const Nav = () => {
                     <div className="div-padding-1-nav"></div>
                     <a href='/Classes' className="navbar-a-element"><h4 style={{textAlign: 'center'}}>Classes/Registration</h4></a>
                     <div className="div-padding-1-nav"></div>
-                    <a href='/Newsletter' className="navbar-a-element"><h4 style={{ textAlign: 'center' }}>OPDA Newsletter</h4></a>
+                    <h4 onClick={() => SetModalIsOpen(true)} className="navbar-a-element-modal-button" style={{ textAlign: 'center' }}>OPDA Newsletter</h4>
                     <div className="div-padding-1-nav"></div>
                     <a href='/ContactMe' className="navbar-a-element"><h4 style={{textAlign: 'center'}}>Contact Me</h4></a>
                 </div>
