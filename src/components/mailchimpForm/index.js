@@ -37,7 +37,7 @@ const CustomForm = ({ status, message, onValidated }) => {
             <h3 className="mc__title">
                 {status === "success"
                     ? "Success!"
-                    : "Join our email list for future updates."
+                    : "Join our email list to stay up to date on when we have performances and on general OPDA topics. Plus it's free!."
                 }
             </h3>
             {status === "sending" && (

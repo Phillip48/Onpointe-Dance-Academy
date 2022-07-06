@@ -29,8 +29,7 @@ const Home = () => {
 
                 </section>
                 <section className="modal-body-content">
-                    <p style={{ textAlign: 'center' }}>Signup for the OPDA Newsletter!</p>
-                    <p style={{textAlign: 'center'}}>By signing up you'll stay up to date on when we have performances and on general OPDA topics. Plus it's free!</p>
+
                     <MailchimpFormContainer />
                     {/* <a href='https://www.google.com/'><button className="modal-close-button">
                         Newsletter
