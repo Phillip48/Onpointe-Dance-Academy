@@ -4,6 +4,8 @@ import '../aboutUs/aboutUs.css'
 // import TempPic from '../../assets/placeholder img.webp';
 import profilebrianna from '../../assets/OPDAimg/11OPDABrianna.JPG';
 import profilecandice from '../../assets/OPDAimg/1candicedance.jpg';
+import profiledanna from '../../assets/OPDANewimages629/DannaDance.jpg';
+
 
 const AboutUsComp = () => {
 
@@ -43,6 +45,18 @@ const AboutUsComp = () => {
                     <div className="aboutus-staff-holds-text">
                         <h1 style={{ color: '#fe0002', textAlign: 'center' }}>Candice</h1>
                         <p>Candice began dancing when she was 6 years old. Her passion grew with her her whole life and has studied many styles from Ballet all the way to African dance. She attended Osceola County School for the Arts and majored in dance. She has completed the Royal Academy of Dance exams and awarded through Grade 8. She studied Modern Dance and Ballet as a minor from Florida Atlantic University. Choreographed for productions for the duration of her studies at FAU. Candice has been teaching all levels and multiple styles since 2015 and loves every minute of it. She is U.S.A gymnastics safety certified and CPR certified. She is currently dancing professionally with RPD Dance Co. being booked for several performance opportunities. Dance is her world and she can’t wait to share that passion with the students of On Pointe Dance Academy.
+                        </p>
+                    </div>
+                </section>
+
+                <section className="aboutus-staff-holds-photo-div margin-top">
+                    <div className="aboutus-staff-holds-photo">
+                        <img alt='staff' src={profiledanna} className='aboutus-staff-photo'></img>
+                    </div>
+
+                    <div className="aboutus-staff-holds-text">
+                        <h1 style={{ color: '#fe0002', textAlign: 'center' }}>Danna</h1>
+                        <p>Danna started dancing at the age of 13. She instantly fell in love with the art of dance which has lead her to dedicate countless hours,studies and, practice to her craft. Danna has studied at a professional level with many styles of dance from Ballet all the way to Latin dance. She studied Ballet and Modern dance at the Osceola County School for the Arts  (OSCA) from grades 10 all the way through graduation of high school. Countless time and passion has been dedicated to choreographing and performing for a large number of productions throughout her studies at OSCA. Danna has been professionally teaching all levels and a variety of styles for 5+ years. Danna is board certified teacher with the state of Florida. Which ensures her teaching styles are up to date with modern learning. She is very excited to share her experience and passion with the students of On Pointe Dance Academy.
                         </p>
                     </div>
                 </section>

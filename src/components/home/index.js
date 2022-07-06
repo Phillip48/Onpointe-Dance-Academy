@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import '../home/home.css'
 import ReactModal from 'react-modal';
+import MailchimpFormContainer from '../mailchimpForm/index';
 
 const Home = () => {
     const [modalIsOpen, SetModalIsOpen] = useState(false)
@@ -30,9 +31,10 @@ const Home = () => {
                 <section className="modal-body-content">
                     <p style={{ textAlign: 'center' }}>Signup for the OPDA Newsletter!</p>
                     <p style={{textAlign: 'center'}}>By signing up you'll stay up to date on when we have performances and on general OPDA topics. Plus it's free!</p>
-                    <a href='https://www.google.com/'><button className="modal-close-button">
+                    <MailchimpFormContainer />
+                    {/* <a href='https://www.google.com/'><button className="modal-close-button">
                         Newsletter
-                    </button></a>
+                    </button></a> */}
                 </section>
             </ReactModal>
 

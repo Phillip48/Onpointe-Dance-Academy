@@ -277,7 +277,7 @@
 } */
 
 .ReactModal__Content {
-  height: 30%;
+  height: 65%;
   width: 50%;
   margin-left: auto;
   margin-right: auto;
@@ -376,7 +376,7 @@
 }
 
 
-
+/* 
 @media screen and (max-height: 1110px) {
   .ReactModal__Content{
     height: 40%;
@@ -387,13 +387,13 @@
   .ReactModal__Content{
     height: 50%;
   }
-}
-
+} */
+/* 
 @media screen and (max-height: 641px) {
   .ReactModal__Content{
     height: 60%;
   }
-}
+} */
 
 @media screen and (max-height: 535px) {
   .ReactModal__Content{
