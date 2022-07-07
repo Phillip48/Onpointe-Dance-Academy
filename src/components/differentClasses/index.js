@@ -3,6 +3,7 @@ import React from "react";
 import '../differentClasses/classes.css'
 // import TempPic from '../../assets/placeholder img.webp';
 // import inclassphoto from '../../assets/OPDAimg/1inclassstretchesresize.JPG';
+import { Link } from "react-router-dom";
 import toddlergallerypic from '../../assets/OPDAimg/toddlerteamdresspic.JPG';
 import adultperformancephoto from '../../assets/OPDAimg/1adultperformancepic1.JPG';
 import balletphoto from '../../assets/OPDAimg/kidsballet.JPG';
@@ -23,9 +24,9 @@ const Classes = () => {
                 {/* class info */}
                 <div className="holds-register-form-button-link">
                     <h2 style={{ color: '#fe0002', textAlign: 'center' }}><b> Interested in joining the performance or competition team? </b></h2>
-                    <a href='/Competition&PerforamceTeam'><button className="contact-form-labels-submit">
+                    <Link to="/Competition&PerforamceTeam"><button className="contact-form-labels-submit">
                         Lets Go!
-                    </button></a>
+                    </button></Link>
 
                     {/* <div className="class-holds-class-img">
                         <img alt='gallery' src={toddlergallerypic} className='class-image'></img>
@@ -103,9 +104,9 @@ const Classes = () => {
                 add more photos like a gallery  */}
                 <div className="holds-register-form-button-link">
                     <h3 style={{ color: '#fe0002' }}><b>Interested in becoming a dance student?</b></h3>
-                    <a href='/Register'><button className="contact-form-labels-submit">
+                    <Link to="/Register"><button className="contact-form-labels-submit">
                         Register Now!
-                    </button></a>
+                    </button></Link>
 
                     {/* <div className="class-holds-class-img">
                         <img alt='gallery' src={toddlergallerypic} className='class-image'></img>

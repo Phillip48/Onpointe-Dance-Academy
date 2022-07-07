@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import '../home/home.css'
 import ReactModal from 'react-modal';
 import MailchimpFormContainer from '../mailchimpForm/index';
+import { Link } from "react-router-dom";
 
 const Home = () => {
     const [modalIsOpen, SetModalIsOpen] = useState(false)
@@ -148,9 +149,9 @@ const Home = () => {
                 </div>
                 <div className="holds-register-form-button-link margin-top">
                     <h2 style={{ textAlign: 'center' }}>Interested in becoming a dance student?</h2>
-                    <a href='/Register'><button className="contact-form-labels-submit">
+                    <Link to="/Register"><button className="contact-form-labels-submit">
                         Register Now!
-                    </button></a>
+                    </button></Link>
 
                     {/* <div className="class-holds-class-img">
                         <img alt='gallery' src={toddlergallerypic} className='class-image'></img>
