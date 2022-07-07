@@ -4,7 +4,7 @@ import './App.css';
 
 // Needed for react router
 import {
-  HashRouter,
+  BrowserRouter,
   Routes,
   Route
 } from "react-router-dom";
@@ -24,7 +24,7 @@ import CompPerTeam from '../src/pages/CompPerformanceTeam';
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       {/* The Navbar is added here to be added to every page that renders */}
       <Nav />
 
@@ -74,7 +74,7 @@ function App() {
         <Footer />
       </main>
 
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
