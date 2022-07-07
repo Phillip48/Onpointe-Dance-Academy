@@ -35,8 +35,6 @@ function App() {
             path="/"
             element={<Home />}
           />
-        </Routes>
-        <Routes>
           <Route
             path="/ContactMe"
             element={<Contact />}
@@ -73,7 +71,6 @@ function App() {
         {/* Renders the footer to the bottom of each page */}
         <Footer />
       </main>
-
     </HashRouter>
   );
 }
