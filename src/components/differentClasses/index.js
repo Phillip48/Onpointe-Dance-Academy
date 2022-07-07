@@ -3,12 +3,12 @@ import React from "react";
 import '../differentClasses/classes.css'
 // import TempPic from '../../assets/placeholder img.webp';
 // import inclassphoto from '../../assets/OPDAimg/1inclassstretchesresize.JPG';
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 import toddlergallerypic from '../../assets/OPDAimg/toddlerteamdresspic.JPG';
 import adultperformancephoto from '../../assets/OPDAimg/1adultperformancepic1.JPG';
 import balletphoto from '../../assets/OPDAimg/kidsballet.JPG';
 import performancephoto from '../../assets/OPDAimg/1adultperformancejumping.JPG';
-import strengthphoto from '../../assets/OPDANewimages/1inclassstretchesresize.JPG';
+import solokidper from '../../assets/OPDAimg/kidsoloperformance.JPG';
 import adultholdingphoto from '../../assets/OPDAimg/adultsteamperformance.JPG';
 
 
@@ -95,7 +95,7 @@ const Classes = () => {
                         <img alt='ballet' className="class-image" src={adultperformancephoto}></img>
                         {/* <div className="div-padding-verysmall"></div> */}
                         {/* <div className="div-padding-verysmall"></div> */}
-                        <img alt='ballet' className="class-image" src={strengthphoto}></img>
+                        <img alt='ballet' className="class-image" src={solokidper}></img>
                         <img alt='ballet' className="class-image" src={adultholdingphoto}></img>
                     </div>
                 </section>
