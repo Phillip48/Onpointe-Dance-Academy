@@ -64,22 +64,22 @@
   }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 660px) {
   .holds-everything-footer {
     flex-wrap: wrap;
   }
   .holds-footer-img {
     min-width: 100%;
   }
-  .footer-social-media {
+  /* .footer-social-media {
     width: 45%;
   }
   .small-contact-info {
     width: 45%;
-  }
+  } */
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 660px) {
   .footer-social-media {
     /* margin-top: 1rem; */
     min-width: 100%;
