@@ -86,7 +86,7 @@
 
 .contact-form-labels-submit {
   padding: 0.4em;
-  font: inherit;
+  /* font: inherit; */
   font-size: 1.5rem;
   margin-top: 1rem;
   font-weight: 500;

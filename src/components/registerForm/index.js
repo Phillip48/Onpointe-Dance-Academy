@@ -260,7 +260,7 @@ const RegisterForm = () => {
                             <td>$22</td>
                         </tr>
                     </table>
-                    <p>For any question please contact the director <b>Brianna Roman</b></p>
+                    <p style={{textAlign: 'center'}}>For any question please contact the director <b>Brianna Roman</b></p>
                     <b><a href="tel:4073509371"><p style={{ marginTop: '-.5rem' }}><AiOutlinePhone /> 407-350-9371</p></a></b>
                     <b><a href="mailto:onpointedance.a@gmail.com"><p style={{ marginTop: '-.5rem' }}><AiOutlineMail /> onpointedance.a@gmail.com</p></a></b>
                 </section>

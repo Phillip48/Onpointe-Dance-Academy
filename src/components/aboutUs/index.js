@@ -22,7 +22,6 @@ const AboutUsComp = () => {
                 {/* subheader and text about the owner staff and company */}
                 <div className="aboutus-subheader-text">
                     <h1 style={{ color: '#fe0002' }}>Learn More About Us...</h1>
-                    <p>Mrs. Brianna started dance at the age of 3. She was trained by teachers certified in England’s Royal Academy of Dance. She received training from Pre primary to Ballet 8 and Technical Foundation, as well as 6 years on Pointe. Brianna knew Dance was her passion at a young age and saw every class and dance style as an opportuniy to grow. Becoming homeschooled gave her the opportunity to dedicate full time to dance. Totaling up to 15 hours or more a week. Studying in all technical styles such as jazz, ballet, tap, and modern. This also included international styles such as Salsa, African, and Bollywood. As well as tumbling and gymnastic. Which led her to become a well rounded dancer and performer. With over 25 years in the performance industry, and over 15 years teaching. She is still enjoying learning and even more so teaching the love of dance to the generations to come.</p>
                 </div>
 
                 {/* Staff photo and text */}
@@ -34,7 +33,7 @@ const AboutUsComp = () => {
 
                     <div className="aboutus-staff-holds-text">
                         <h1 style={{ color: '#fe0002', textAlign: 'center' }}>Brianna Roman</h1>
-                        <p>Mrs. Brianna started dance at the age of 3 at Leggz Dance Academy. She was introduced to dance by her grandmother who noticed that she needed to release some extra energy. She started off in a creative dance, and in the following years she began to love dance and decided to extend her knowledge into other styles of dance totaling up to 10 classes per week. At the age of 17 she was offered a job to teach dance and at the age of 19 decided to start her own business teaching dance at local schools. Mrs. Brianna ballet training is in The Royal Academy of Dance finishing grade 8. She is U.S.A gymnastics safety certified and CPR certified. With over 20 years of training and 15 years in the industry her passion continues to grow through the students she teaches. </p>
+                        <p>Mrs. Brianna started dance at the age of 3. She was trained by teachers certified in England’s Royal Academy of Dance. She received training from Pre primary to Ballet 8 and Technical Foundation, as well as 6 years on Pointe. Brianna knew Dance was her passion at a young age and saw every class and dance style as an opportuniy to grow. Becoming homeschooled gave her the opportunity to dedicate full time to dance. Totaling up to 15 hours or more a week. Studying in all technical styles such as jazz, ballet, tap, and modern. This also included international styles such as Salsa, African, and Bollywood. As well as tumbling and gymnastic. Which led her to become a well rounded dancer and performer. With over 25 years in the performance industry, and over 15 years teaching. She is still enjoying learning and even more so teaching the love of dance to the generations to come.</p>
                     </div>
                 </section>
 
