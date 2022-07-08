@@ -8,7 +8,7 @@
   /* margin: 2.5rem; */
 }
 
-.classes-banner-top-page{
+.classes-banner-top-page {
   margin: 0;
   background-image: url(../../assets/OPDANewimages/1inclassstretchesresize.JPG);
   background-position: 25% 25%;
@@ -22,13 +22,12 @@
   height: 70vh;
 }
 
-.classes-banner-text{
+.classes-banner-text {
   color: white;
   border-bottom: 3px solid white;
   text-align: center;
   font-size: 3em;
 }
-
 
 .classes-holds-class-info {
   display: flex;
@@ -41,8 +40,36 @@
 
 } */
 
-.classes-text-schedule {
-  width: 20%;
+.classes-text-schedule{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 28%;
+}
+
+.classes-pdf-iframe{
+  width: 95%;
+  height: 630px;
+}
+
+.classes-images {
+  margin: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  /* width: 20%; */
+}
+
+.classes-images-div{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
 }
 
 .class-holds-class-img {
@@ -54,7 +81,7 @@
 
 .class-image {
   margin-top: 2.5rem;
-  width: 65%;
+  width: 95%;
   height: auto;
 }
 .classes-text-info {
@@ -73,31 +100,44 @@
   margin-left: 1rem;
 }
 
-@media screen and (max-width: 1920px) {
-  .class-image{width: 80%;}
-}
-
+/* @media screen and (max-width: 1920px) {
+  .class-image {
+    width: 80%;
+  }
+} */
+/* 
 @media screen and (max-width: 1700px) {
-  .class-image{width: 100%;}
-}
-@media screen and (max-width: 1450px) {
-  .classes-text-schedule{width: 30%;}
-}
+  .class-image {
+    width: 100%;
+  }
+} */
+/* @media screen and (max-width: 1450px) {
+  .classes-images{width: 30%;}
+} */
 
 @media screen and (max-width: 1000px) {
-  .classes-holds-class-info{
+  .classes-holds-class-info {
     align-items: center;
     justify-content: center;
   }
-  .classes-text-schedule{
+  /* .classes-images {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  } */
+  .classes-text-info {
+    width: 80%;
   }
-  .classes-text-info {width: 80%;}
-  .classes-text-schedule{width: 80%;}
-  .class-image{width: 45%;}
-  .classes-holds-class-info{
+  /* .class-image {
+    width: 45%;
+  } */
+  .classes-holds-class-info {
     flex-direction: column;
+  }
+  .classes-pdf-iframe{
+    height: 500px;
+  }
+  .classes-text-schedule{
+    width: 80%;
   }
 }

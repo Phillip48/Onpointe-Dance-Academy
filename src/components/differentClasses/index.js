@@ -10,7 +10,7 @@ import balletphoto from '../../assets/OPDAimg/kidsballet.JPG';
 import performancephoto from '../../assets/OPDAimg/1adultperformancejumping.JPG';
 import solokidper from '../../assets/OPDAimg/kidsoloperformance.JPG';
 import adultholdingphoto from '../../assets/OPDAimg/adultsteamperformance.JPG';
-
+import schedulepdf from '../../assets/On Pointe 2022 Schedule.pdf';
 
 const Classes = () => {
 
@@ -27,18 +27,10 @@ const Classes = () => {
                     <Link to="/Competition&PerforamceTeam"><button className="contact-form-labels-submit">
                         Lets Go!
                     </button></Link>
-
-                    {/* <div className="class-holds-class-img">
-                        <img alt='gallery' src={toddlergallerypic} className='class-image'></img>
-                        <img alt='gallery' src={inclassphoto} className='class-image'></img>
-                    </div> */}
-
                 </div>
                 <section className="classes-holds-class-info">
-
                     <div className="classes-text-info">
-
-
+                        <h2 style={{ textAlign: 'center', color: '#fe0002' }}>Class Options</h2>
                         <h2><b>Ballet:  </b></h2>
                         {/* <p className="indent-class-text">Ages: 6 years and up</p> */}
                         <p className="indent-class-text">Is the most important form of dance and is required by all performance and company students. Ballet is a classical style that will work on grace, precision and formalized technique. Classes include barre work, center work, and across the floor. Ages 5 and up </p>
@@ -83,36 +75,36 @@ const Classes = () => {
                         <p className="indent-class-text">Learn basic to advance movements of salsa, bachata, cha cha, and partnering. Students will immerse themselves into the technical steps and movements of each style. Ages 8 and up </p>
 
                     </div>
-
-
-
                     {/* schedule */}
                     <div className="classes-text-schedule">
-                        <img alt='ballet' className="class-image" src={performancephoto}></img>
-                        <img alt='ballet' className="class-image" src={toddlergallerypic}></img>
-                        {/* <div className="div-padding-verysmall"></div> */}
-                        <img alt='ballet' className="class-image" src={balletphoto}></img>
-                        <img alt='ballet' className="class-image" src={adultperformancephoto}></img>
-                        {/* <div className="div-padding-verysmall"></div> */}
-                        {/* <div className="div-padding-verysmall"></div> */}
-                        <img alt='ballet' className="class-image" src={solokidper}></img>
-                        <img alt='ballet' className="class-image" src={adultholdingphoto}></img>
+                        <h2 style={{ textAlign: 'center', color: '#fe0002' }}>Class Schedule</h2>
+                        <iframe
+                            title="Performance-PDF"
+                            className="classes-pdf-iframe" src={schedulepdf}>
+
+                        </iframe>
+                        <p style={{ textAlign: 'center' }}>If you would like to download the PDF version of the schedule <a href='https://docs.google.com/document/d/1K5G3Y5-_WVEW09x5yrn1UKUex1ym1JWWUMwK2U4eh2A/export?format=pdf' style={{ color: '#fe0002', fontWeight: '600'}}>click here!</a></p>
                     </div>
                 </section>
 
                 {/* possibly make a slider or 
                 add more photos like a gallery  */}
                 <div className="holds-register-form-button-link">
-                    <h3 style={{ color: '#fe0002' }}><b>Interested in becoming a dance student?</b></h3>
+                    <h3 style={{ textAlign: 'center', color: '#fe0002' }}><b>Interested in becoming a dance student?</b></h3>
                     <Link to="/Register"><button className="contact-form-labels-submit">
                         Register Now!
                     </button></Link>
-
-                    {/* <div className="class-holds-class-img">
-                        <img alt='gallery' src={toddlergallerypic} className='class-image'></img>
-                        <img alt='gallery' src={inclassphoto} className='class-image'></img>
-                    </div> */}
-
+                </div>
+                <div>
+                    <h1 style={{ color: '#fe0001', textAlign: 'center'}}>Gallery</h1>
+                </div>  
+                <div className="classes-images">
+                    <div className="classes-images-div"><img alt='ballet' className="class-image" src={performancephoto}></img></div>
+                    <div className="classes-images-div"><img alt='ballet' className="class-image" src={toddlergallerypic}></img></div>
+                    <div className="classes-images-div"><img alt='ballet' className="class-image" src={balletphoto}></img></div>
+                    <div className="classes-images-div"><img alt='ballet' className="class-image" src={adultperformancephoto}></img></div>
+                    <div className="classes-images-div"><img alt='ballet' className="class-image" src={solokidper}></img></div>
+                    <div className="classes-images-div"><img alt='ballet' className="class-image" src={adultholdingphoto}></img></div>
                 </div>
             </section>
         </>

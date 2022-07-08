@@ -10,7 +10,7 @@
 .primaryBtn {
   cursor: pointer;
   background-color: white;
-  font-size: 1.3em;
+  font-size: 1em;
   width: 30%;
   text-align: center;
 }
@@ -80,11 +80,11 @@ input[disabled] {
   }
 }
 
-@media screen and (max-width: 1000px){
-  .input[disabled] {
-     font-size: .8em;
-  }
-}
+// @media screen and (max-width: 1000px){
+//   .input[disabled] {
+//      font-size: .8em;
+//   }
+// }
 
 @media screen and (max-width: 650px){
   .input[disabled] {
@@ -94,6 +94,6 @@ input[disabled] {
 
 @media screen and (max-width: 400px){
   .input[disabled] {
-     font-size: .5em;
+     font-size: .3em;
   }
 }
