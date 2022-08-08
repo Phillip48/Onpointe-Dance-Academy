@@ -83,7 +83,7 @@ const Classes = () => {
                             className="classes-pdf-iframe" src={schedulepdf}>
 
                         </iframe>
-                        <p style={{ textAlign: 'center' }}>If you would like to download the PDF version of the schedule <a href='https://docs.google.com/document/d/1K5G3Y5-_WVEW09x5yrn1UKUex1ym1JWWUMwK2U4eh2A/export?format=pdf' style={{ color: '#fe0002', fontWeight: '600'}}>click here!</a></p>
+                        <p style={{ textAlign: 'center' }}>If you would like to download the PDF version of the schedule <a href={schedulepdf} style={{ color: '#fe0002', fontWeight: '600'}}>click here!</a></p>
                     </div>
                 </section>
 
