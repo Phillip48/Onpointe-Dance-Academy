@@ -68,7 +68,7 @@ const RegisterForm = () => {
                             <label htmlFor="studentsEmail" className='para-text-small-form'>
                                 Students Email If Applicable
                             </label>
-                            <input type="tel" id="studentsEmail" name="studentsEmail" className="register-input-field-form input-size" />
+                            <input type="email" id="studentsEmail" name="studentsEmail" className="register-input-field-form input-size" />
                         </div>
 
                         <div className="register-form-labels">
@@ -114,7 +114,7 @@ const RegisterForm = () => {
                             <label htmlFor="parentsEmail" className='para-text-small-form'>
                                 Parents Email
                             </label>
-                            <input type="tel" id="parentsEmail" name="parentsEmail" className="register-input-field-form input-size" required/>
+                            <input type="email" id="parentsEmail" name="parentsEmail" className="register-input-field-form input-size" required/>
                         </div>
 
                         <div className="register-form-labels">
