@@ -12,7 +12,6 @@ const RegisterForm = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        // Make a new template for the registeration form
         emailjs.sendForm('service_30g88yk', 'template_obyfpth', form.current, '3-bRDlrNfQF67KWz3')
             .then((result) => {
                 console.log(result.text);
@@ -109,6 +108,13 @@ const RegisterForm = () => {
                                 </label>
                                 <input type="tel" id="fatherNumber" name="fatherNumber" className="register-input-field-form input-size" required />
                             </div>
+                        </div>
+
+                        <div className="register-form-labels">
+                            <label htmlFor="parentsEmail" className='para-text-small-form'>
+                                Parents Email
+                            </label>
+                            <input type="tel" id="parentsEmail" name="parentsEmail" className="register-input-field-form input-size" required/>
                         </div>
 
                         <div className="register-form-labels">
