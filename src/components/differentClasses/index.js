@@ -10,7 +10,7 @@ import balletphoto from '../../assets/OPDAimg/kidsballet.JPG';
 import performancephoto from '../../assets/OPDAimg/1adultperformancejumping.JPG';
 import solokidper from '../../assets/OPDAimg/kidsoloperformance.JPG';
 import adultholdingphoto from '../../assets/OPDAimg/adultsteamperformance.JPG';
-import schedulepdf from '../../assets/On Pointe 2022 Schedule.pdf';
+import schedulepdf from '../../assets/Dance Contract 2023-2024 .pdf';
 
 const Classes = () => {
 
