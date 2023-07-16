@@ -169,23 +169,23 @@ const RegisterForm = () => {
                     <table>
                         <tr>
                             <td>1 Class</td>
-                            <td>Semester $225 no registration fee</td>
-                            <td>Monthly $50 registration fee $25</td>
+                            <td>Semester $230 no registration fee</td>
+                            <td>Monthly $51 registration fee $25</td>
                         </tr>
                         <tr>
                             <td>2 Classes</td>
-                            <td>Semester $420 no registration fee </td>
-                            <td>Monthly $90 registration fee $25</td>
+                            <td>Semester $425 no registration fee </td>
+                            <td>Monthly $92 registration fee $25</td>
                         </tr>
                         <tr>
                             <td>3 Classes</td>
-                            <td>Semester $555 no registration fee</td>
-                            <td>Monthly $120 registration fee $25</td>
+                            <td>Semester $550 no registration fee</td>
+                            <td>Monthly $123 registration fee $25</td>
                         </tr>
                         <tr>
                             <td>4 Classes</td>
-                            <td>Semester $640 no registration fee</td>
-                            <td>Monthly $140 registration fee $25</td>
+                            <td>Semester $645 no registration fee</td>
+                            <td>Monthly $144 registration fee $25</td>
                         </tr>
                     </table>
 
@@ -243,11 +243,11 @@ const RegisterForm = () => {
                         </tr>
                         <tr>
                             <td>Leotard </td>
-                            <td>$18</td>
+                            <td>$19</td>
                         </tr>
                         <tr>
                             <td>Dance shorts</td>
-                            <td>$16</td>
+                            <td>$18</td>
                         </tr>
                         <tr>
                             <td>Tights</td>

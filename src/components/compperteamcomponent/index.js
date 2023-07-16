@@ -1,6 +1,6 @@
 import React from "react";
 import '../compperteamcomponent/compandper.css'
-import Perpdf from '../../assets/Dance contract 2021-2022.pdf';
+import Perpdf from '../../assets/Dance Contract 2023-2024 .pdf';
 import Comppdf from '../../assets/OPCC.pdf';
 import {AiOutlinePhone, AiOutlineMail} from 'react-icons/ai';
 
