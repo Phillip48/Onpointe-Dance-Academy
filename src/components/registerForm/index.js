@@ -169,23 +169,23 @@ const RegisterForm = () => {
                     <table>
                         <tr>
                             <td>1 Class</td>
-                            <td>Semester $230 no registration fee</td>
-                            <td>Monthly $51 registration fee $25</td>
+                            <td>Semester $240 no registration fee</td>
+                            <td>Monthly $53 registration fee $25</td>
                         </tr>
                         <tr>
                             <td>2 Classes</td>
-                            <td>Semester $425 no registration fee </td>
-                            <td>Monthly $92 registration fee $25</td>
+                            <td>Semester $440 no registration fee </td>
+                            <td>Monthly $94 registration fee $25</td>
                         </tr>
                         <tr>
                             <td>3 Classes</td>
-                            <td>Semester $550 no registration fee</td>
-                            <td>Monthly $123 registration fee $25</td>
+                            <td>Semester $585 no registration fee</td>
+                            <td>Monthly $125 registration fee $25</td>
                         </tr>
                         <tr>
                             <td>4 Classes</td>
-                            <td>Semester $645 no registration fee</td>
-                            <td>Monthly $144 registration fee $25</td>
+                            <td>Semester $680 no registration fee</td>
+                            <td>Monthly $146 registration fee $25</td>
                         </tr>
                     </table>
 
@@ -242,8 +242,12 @@ const RegisterForm = () => {
                             <th>Price</th>
                         </tr>
                         <tr>
+                            <td>OPDA logo leotard kids and adults </td>
+                            <td>Kids $32 Adults $38</td>
+                        </tr>
+                        <tr>
                             <td>Leotard </td>
-                            <td>$19</td>
+                            <td>$20</td>
                         </tr>
                         <tr>
                             <td>Dance shorts</td>
@@ -251,19 +255,27 @@ const RegisterForm = () => {
                         </tr>
                         <tr>
                             <td>Tights</td>
-                            <td>$12</td>
+                            <td>$14</td>
                         </tr>
                         <tr>
                             <td>Jazz shoes</td>
-                            <td>$32</td>
+                            <td>$35</td>
                         </tr>
                         <tr>
                             <td>Tap shoes</td>
-                            <td>$32</td>
+                            <td>$35</td>
                         </tr>
                         <tr>
                             <td>Ballet shoes</td>
-                            <td>$22</td>
+                            <td>$25</td>
+                        </tr>
+                        <tr>
+                            <td>Tumble stars biketard</td>
+                            <td>$28</td>
+                        </tr>
+                        <tr>
+                            <td>Ballet stars dress</td>
+                            <td>$28</td>
                         </tr>
                     </table>
                     <p style={{textAlign: 'center'}}>For any question please contact the director <b>Brianna Roman</b></p>
